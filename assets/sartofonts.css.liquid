@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "MavenPro";
+  src: url("{{ 'MavenPro.eot' | asset_url }}"); /* IE9 Compat Modes */
+  src: url("{{ 'MavenPro.eot?#iefix' | asset_url }}") format("embedded-opentype"), /* IE6-IE8 */
+       url("{{ 'MavenPro.woff2' | asset_url }}") format("woff2"), /* Modern Browsers */
+       url("{{ 'MavenPro.woff' | asset_url }}") format("woff"), /* Modern Browsers */
+       url("{{ 'MavenPro.ttf' | asset_url }}") format("truetype"), /* Safari, Android, iOS */
+       url("{{ 'MavenPro.svg#MavenPro' | asset_url }}") format("svg"); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heldane Display';
+    src: url("{{'HeldaneDisplay-Regular.woff2' | asset_url }}") format('woff2'),
+        url("{{ 'HeldaneDisplay-Regular.woff' | asset_url }}") format('woff'),
+        url("{{ 'HeldaneDisplay-Regular.ttf' | asset_url }}") format('truetype');
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heldane Display';
+    src: url("{{ 'HeldaneDisplay-RegularItalic.woff2' | asset_url }}") format('woff2'),
+        url("{{ 'HeldaneDisplay-RegularItalic.woff' | asset_url }}") format('woff'),
+        url("{{ 'HeldaneDisplay-RegularItalic.ttf' | asset_url }}") format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}

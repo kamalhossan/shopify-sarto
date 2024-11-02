@@ -1,0 +1,139 @@
+{% liquid
+  if section.settings.custom_class != blank
+    assign classes = section.settings.custom_class
+  endif
+%}
+
+{%- style -%}
+  .m-section-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+{% assign alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" | split: "" %}
+{% assign sorted_collections = collections | sort: 'title' %}
+
+<section
+  id="m-section-{{ section.id }}"
+  class="m-section-{{ section.id }} m-gradient m-color-{{ section.settings.color_scheme }}"
+>
+<div class="{{ section.settings.container }} {{ classes }} sarto-product-brands">
+  
+  <div class="alphabet">
+    <ul class="alphabet-list">
+      {% for letter in alphabet %}
+        {% assign found = false %}
+        {% for collection in sorted_collections %}
+          {% assign first_letter = collection.title | slice: 0, 1 %}
+          {% if first_letter == letter %}
+            {% assign found = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        
+        <li class="alphabet-item {{ letter }}">
+          {% if found %}
+            <a href="#letter-{{ letter }}">{{ letter }}</a>
+          {% else %}
+            <span>{{ letter }}</span>
+          {% endif %}
+        </li>
+        
+      {% endfor %}
+    </ul>
+  </div>
+  
+  <div class="collection-list">
+    {% for letter in alphabet %}
+      {% assign found = false %}
+      
+      <div class="collection-list__content" id="letter-{{ letter }}">
+        <h2 class="collection-name">{{ letter }}</h2>
+        <ul class="collection-list__wrapper {{ letter }}">
+          {% for collection in sorted_collections %}
+            {% assign first_letter = collection.title | slice: 0, 1 %}
+            
+            {% if first_letter == letter %}
+              {% assign found = true %}
+              <li class="collection-list__item">
+                <a class="collection-list__link" href="{{ collection.url }}">{{ collection.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      
+      {% unless found %}
+        <style>
+          #letter-{{ letter }} {
+            display: none;
+          }
+          .alphabet-item.{{ letter }} {
+            color: #D9D9D9;
+            cursor: default;
+          }
+        </style>
+      {% endunless %}
+      
+    {% endfor %}
+  </div>
+  
+</div>
+</section>
+
+
+{% schema %}
+{
+  "name": "Sarto All Brand",
+  "class": "sarto-brand-list",
+  "settings": [
+    {
+      "type": "select",
+      "id": "container",
+      "label": "Container type",
+      "default": "container-fluid",
+      "options": [
+        { "value": "container-fluid", "label": "Default" },
+        { "value": "w-full", "label": "Full width" },
+        { "value": "container", "label": "Use container box" }
+      ]
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom classes"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Sarto Brand List"
+    }
+  ]
+}
+{% endschema %}

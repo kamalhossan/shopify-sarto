@@ -1,0 +1,553 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "container": "container-fluid",
+        "text_alignment": "left",
+        "hide_current": false,
+        "hide_on_mb": true,
+        "animations": "inherit"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "badge_ChqgGj": {
+          "type": "badge",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": false,
+            "sale_badge_type": "percentage"
+          }
+        },
+        "short_description_eMCxJ9": {
+          "type": "short_description",
+          "settings": {
+          }
+        },
+        "custom_liquid_P9Ya3m": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.variants.size > 1 %}\n  {% assign class = \"has_variant\" %}\n{% else %}\n  {% assign class = \"no_variant\" %}\n{% endif %}\n\n{%if product.metafields.custom.size_guide %}\n<div class=\"size-guide {{ class }}\">\n<button data-modal-target=\"size-guide\">View Size Guide<\/button>\n<\/div>\n{% endif%}"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_title": "Size"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_atc_button": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "addons": {
+          "type": "addons",
+          "disabled": true,
+          "settings": {
+            "show_atcp": true,
+            "show_ask_a_question": true,
+            "show_social": true
+          }
+        },
+        "shipping_VBJFtx": {
+          "type": "shipping",
+          "disabled": true,
+          "settings": {
+            "show_delivery_times": true,
+            "deliver_text": "Estimated Delivery:",
+            "deliver_days": "7",
+            "date_format": "%b %d",
+            "show_shipping_text": true,
+            "shipping_text": "<p><strong>Free Shipping & Returns: <\/strong>On all orders over $75<\/p>"
+          }
+        },
+        "trust_badge_NyBMd4": {
+          "type": "trust_badge",
+          "settings": {
+            "trust_badges_text": "<p>Guarantee safe & secure checkout<\/p>",
+            "trust_badges_image_width": "60%",
+            "position": "below"
+          }
+        },
+        "inventory_status_ikBMmE": {
+          "type": "inventory_status",
+          "settings": {
+            "show_indicator_bar": true,
+            "normal_text": "",
+            "low_text": "<p>- Hurry! Limited stock left.<\/p>",
+            "outofstock_text": "",
+            "backordered_text": "<p>Backordered<\/p>"
+          }
+        },
+        "collapsible_tab_fibxjt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "PRODUCT DETAILS & CARE",
+            "content": "",
+            "liquid": "{{product.description}}",
+            "default_open": false
+          }
+        },
+        "custom_text_wE7fFp": {
+          "type": "custom_text",
+          "settings": {
+            "content": "<p><a href=\"#\" title=\"#\">DELIVERY & RETURNS<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "badge_ChqgGj",
+        "title",
+        "price",
+        "short_description_eMCxJ9",
+        "custom_liquid_P9Ya3m",
+        "variant_picker",
+        "buy_buttons",
+        "addons",
+        "shipping_VBJFtx",
+        "trust_badge_NyBMd4",
+        "inventory_status_ikBMmE",
+        "collapsible_tab_fibxjt",
+        "custom_text_wE7fFp"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "layout": "layout-6",
+        "show_atwl": true,
+        "enable_history_state": true,
+        "enable_variant_group_images": false,
+        "disable_selected_variant_default": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": true,
+        "show_nav_media_mobile": false,
+        "show_pagination_mobile": true,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.<\/p><p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.<\/p>",
+            "content_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "tab"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".m-tabs__header {justify-content: flex-start;}"
+      ],
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "default_open": true,
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_i9WRYn": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "remove_params": false,
+        "heading": "You Might Also Like",
+        "heading_size": "h3",
+        "text_align": "center",
+        "limit": 8,
+        "columns": 5,
+        "column_gap": 30,
+        "enable_slider": true,
+        "use_scroll_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": "related-product",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_mbcDkW": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "custom_class": ""
+      }
+    },
+    "recent-viewed-products": {
+      "type": "recent-viewed-products",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "heading": "Recently Viewed Products",
+        "heading_size": "h3",
+        "text_align": "center",
+        "limit": 8,
+        "columns": 5,
+        "column_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "custom_class": "related-product",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_mq6CPt": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "custom_class": ""
+      }
+    },
+    "icon_box_VVRTHg": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_XjXDFJ": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_WeebUf": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_3xtaBQ": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_XjXDFJ",
+        "iconbox_WeebUf",
+        "iconbox_3xtaBQ"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_per_row": 3,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_color_scheme": "",
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": true,
+        "show_pagination": true,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "product-highlights",
+        "animations": "inherit"
+      }
+    },
+    "footter_top_BrB8kW": {
+      "type": "footter-top",
+      "blocks": {
+        "image_above_content_x7CthU": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "link": ""
+          }
+        },
+        "image_above_content_EJnq3c": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "link": ""
+          }
+        },
+        "image_above_content_hedPB6": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_above_content_x7CthU",
+        "image_above_content_EJnq3c",
+        "image_above_content_hedPB6"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "product-highlights"
+      }
+    },
+    "empty_space_CULxP9": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": ""
+      }
+    },
+    "footter_top_W6J3Dr": {
+      "type": "footter-top",
+      "blocks": {
+        "image_above_content_etNxFd": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Our Store",
+            "description": "<p><strong>STORE HOURS<\/strong><br\/>Monday to Thursday: 10:00 till 19:00<br\/>Friday to Saturday: 10:00 till 20:00<br\/>Sunday: Closed<\/p><p><a href=\"#\" title=\"#\">Get directions<\/a><\/p><p>Ross Street, St Julians, Malta STJ3246<br\/><br\/><a href=\"#\" title=\"#\">T: 2202 1601<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_one.png",
+            "link": ""
+          }
+        },
+        "image_above_content_37PTap": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Sarto <em>VIP<\/em>",
+            "description": "<p>Become a Keyholder and unlock exclusive invites, first looks, free delivery, monthly prizes and regular donations.<\/p><p><a href=\"#\" title=\"#\">Discover more<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/Image_two.png",
+            "link": ""
+          }
+        },
+        "image_above_content_NTKnUn": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Loyalty Scheme",
+            "description": "<p>Become a Keyholder and unlock exclusive invites, first looks, free delivery, monthly prizes and regular donations.<\/p><p><a href=\"#\" title=\"#\">Discover more<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_three.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_above_content_etNxFd",
+        "image_above_content_37PTap",
+        "image_above_content_NTKnUn"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "icon_box_bMgPHb": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_BXGT7g": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_one.png",
+            "image_by_url": "",
+            "title": "Our Store",
+            "description": "<p><strong>STORE HOURS<\/strong><br\/>Monday to Thursday: 10:00 till 19:00<br\/>Friday to Saturday: 10:00 till 20:00<br\/>Sunday: Closed<\/p><p><a href=\"#\" title=\"#\">Get directions<\/a><\/p><p>Ross Street, St Julians, Malta STJ3246<br\/><br\/><a href=\"#\" title=\"#\">T: 2202 1601<\/a><\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--plain",
+            "button_size": ""
+          }
+        },
+        "iconbox_QB6tFJ": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_two.png",
+            "image_by_url": "",
+            "title": "Sarto <em>VIP<\/em>",
+            "description": "<p>Become a Keyholder and unlock exclusive invites, first looks, free delivery, monthly prizes and regular donations.<\/p><p><a href=\"#\" title=\"#\">Discover more<\/a><\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--plain",
+            "button_size": ""
+          }
+        },
+        "iconbox_jQXRma": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_three.png",
+            "image_by_url": "",
+            "title": "Loyalty Scheme",
+            "description": "<p>Become a Keyholder and unlock exclusive invites, first looks, free delivery, monthly prizes and regular donations.<\/p><p><a href=\"#\" title=\"#\">Discover more<\/a><\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--plain",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_BXGT7g",
+        "iconbox_QB6tFJ",
+        "iconbox_jQXRma"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "left",
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "item_per_row": 3,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_color_scheme": "",
+        "card_style": "vertical",
+        "image_max_width": "",
+        "content_alignment": "start",
+        "hover_effect": "scaling-up",
+        "enable_slider": true,
+        "show_pagination": true,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "custom_class": "footer-top",
+        "animations": "inherit"
+      }
+    },
+    "custom_liquid_7WynkL": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if product.metafields.custom.size_guide %}\n  <div class=\"modal sarto\" id=\"size-guide\"> <!-- This is the background overlay -->\n    <div class=\"modal-content\"> <!-- This is the actual modal\/popup box -->\n      <span class=\"modal-close\">&times;<\/span>\n      <h1>Sarto Size Guide<\/h1>\n      {% if product.metafields.custom.size_guide.value %}\n        <img src=\"{{ product.metafields.custom.size_guide | img_url: 'large' }}\" alt=\"Size Guide\">\n      {% else %}\n        <p>No size guide available.<\/p>\n      {% endif %}\n    <\/div>\n  <\/div>\n{% endif %}",
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "product-details-tabs",
+    "empty_space_i9WRYn",
+    "product-recommendations",
+    "empty_space_mbcDkW",
+    "recent-viewed-products",
+    "empty_space_mq6CPt",
+    "icon_box_VVRTHg",
+    "footter_top_BrB8kW",
+    "empty_space_CULxP9",
+    "footter_top_W6J3Dr",
+    "icon_box_bMgPHb",
+    "custom_liquid_7WynkL"
+  ]
+}

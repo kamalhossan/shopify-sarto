@@ -1,0 +1,668 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-about-us",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "rich_text_dENTHA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3XXcaK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Curating the Pinnacle of Fashion Maisons",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3XXcaK"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "mt-5 page-about",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_2_M4CdBy": {
+      "type": "image-with-text-2",
+      "settings": {
+        "color_scheme": "",
+        "container": "w-full",
+        "hero_size": "large",
+        "show_overlay": true,
+        "image": "shopify:\/\/shop_images\/image_24.png",
+        "image_link": "",
+        "parallax": false,
+        "parallax_direction": "vertical",
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "text_alignment_mobile": "center",
+        "use_content_above": false,
+        "custom_class": "fw-img",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "custom-content": {
+      "type": "custom-content",
+      "blocks": {
+        "be5d2488-3c71-471f-bb75-dbccb6970cb0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "100%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "f5e88f1f-ff68-4d03-b686-0cb9fe62fab1": {
+          "type": "text",
+          "settings": {
+            "title": "<h4 class=\"about__block-heading\">It pains me physically to see woman victimized,<br> rendered pathetic by fashion.<\/h4>\n<p class=\"about__block-subheading\">Awkwardness gives me great comfort. I’ve never been cool, but I’ve felt cool. I’ve been in the<br> cool place, but I wasn’t really cool – I was trying to pass for hip or cool.<\/p>",
+            "subheading": "",
+            "text": "<p>A girl should be two things: classy and fabulous. I am convinced that there can be luxury in simplicity. I wanted to dress the woman who lives and works, not the woman in a painting. It’s hard to balance everything. It’s always challenging. My relationships with producers or photographers – these are relationships that took years. I can’t get sucked into that celebrity thing, because I think it’s just crass. My aim is to make the poor look rich and the rich look poor. Vanity is the healthiest thing in life. I believe that my clothes can give people a better image of themselves – that it can increase their feelings of confidence and happiness. You can hide so much behind theatrics, and I don’t need to do that any more. I don’t really know how to do casual clothes.<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "sf__about-block sf__about-block-text sf__about-block-text-1",
+            "animations": "inherit"
+          }
+        },
+        "4e1fb14f-ef60-4693-b6a2-2b26063e1b70": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "9a3a8077-de29-4141-9162-b9484d4a85f8": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <h3>We are proudly<br> Australian.<\/h3>\n  <ul>\n    <li>\n      <span><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/icon1.svg?v=1627616411\"><\/span>\n      <div class=\"rte\">\n          <h4>Soft Fabric<\/h4>\n          <p class=\"text-color-subtext\">Get complimentary ground shipping on every<br> order.Don’t love it? Send it back, on us.<\/p>\n      <\/div>\n    <\/li>\n    <li>\n      <span><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/icon2_daf1b6c2-ef2e-416c-ae6a-a7ddd145b6c5.svg?v=1627616411\"><\/span>\n      <div class=\"rte\">\n          <h4>Lightweight<\/h4>\n          <p class=\"text-color-subtext\">Join Minimog Rewards to earn gift cards<br>\nand enjoy exclusive member benefits.<\/p>\n      <\/div>\n    <\/li>\n    <li>\n      <span><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/icon3.svg?v=1627616411\"><\/span>\n      <div class=\"rte\">\n          <h4>All Day Comfort<\/h4>\n          <p class=\"text-color-subtext\">We believe getting dressed should be the<br> easiest part of your day.<\/p>\n      <\/div>\n    <\/li>\n  <\/ul>\n<\/div>",
+            "width": "50%",
+            "block_custom_class": "sf__about-custom-html",
+            "animations": "inherit"
+          }
+        },
+        "28e3ce35-e364-43f3-ba87-18b633233063": {
+          "type": "text",
+          "settings": {
+            "title": "<h4 class=\"about__block-heading\">The world needs to move fast to make a meaningful<br> difference in the fight against climate change.<\/h4>",
+            "subheading": "",
+            "text": "<p>A girl should be two things: classy and fabulous. I am convinced that there can be luxury in simplicity. I wanted to dress the woman who lives and works, not the woman in a painting. It’s hard to balance everything. It’s always challenging. My relationships with producers or photographers – these are relationships that took years. I can’t get sucked into that celebrity thing, because I think it’s just crass. My aim is to make the poor look rich and the rich look poor. Vanity is the healthiest thing in life. I believe that my clothes can give people a better image of themselves – that it can increase their feelings of confidence and happiness. You can hide so much behind theatrics, and I don’t need to do that any more. I don’t really know how to do casual clothes.<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "sf__about-block sf__about-block-text sf__about-block-text-2",
+            "animations": "inherit"
+          }
+        },
+        "c6a8b57f-c54c-43f1-9771-9ea5d88a2f36": {
+          "type": "text",
+          "settings": {
+            "title": "Our Team",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "sf__about-custom-heading",
+            "animations": "inherit"
+          }
+        },
+        "859f4ef2-676f-4587-9ae8-3a19ffa439dd": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "color_scheme": "",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "link": "",
+            "title": "Edward Lindgren",
+            "subtitle": "<span class=\"text-color-subtext\">CHIEF OPERATING OFFICER<\/span>",
+            "description": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "sf__about-card-custom",
+            "animations": "inherit"
+          }
+        },
+        "a1a4a67f-c83f-4629-a006-e44f56c80bf5": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "color_scheme": "",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "link": "",
+            "title": "Chineze Afamefuna",
+            "subtitle": "<span class=\"text-color-subtext\">MARKETING<\/span>",
+            "description": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "sf__about-card-custom",
+            "animations": "inherit"
+          }
+        },
+        "dc4597e9-ca80-4d0f-9e30-ff28c96dd3aa": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "color_scheme": "",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "link": "",
+            "title": "Nado Husa",
+            "subtitle": "<span class=\"text-color-subtext\">CO-FOUNDER<\/span>",
+            "description": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "sf__about-card-custom",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "be5d2488-3c71-471f-bb75-dbccb6970cb0",
+        "f5e88f1f-ff68-4d03-b686-0cb9fe62fab1",
+        "4e1fb14f-ef60-4693-b6a2-2b26063e1b70",
+        "9a3a8077-de29-4141-9162-b9484d4a85f8",
+        "28e3ce35-e364-43f3-ba87-18b633233063",
+        "c6a8b57f-c54c-43f1-9771-9ea5d88a2f36",
+        "859f4ef2-676f-4587-9ae8-3a19ffa439dd",
+        "a1a4a67f-c83f-4629-a006-e44f56c80bf5",
+        "dc4597e9-ca80-4d0f-9e30-ff28c96dd3aa"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media (min-width: 1280px) {#m-custom__block--9a3a8077-de29-4141-9162-b9484d4a85f8 {padding-left: 100px; }}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "m-about-page"
+      }
+    },
+    "image_with_text_UJMkA4": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "layout": "right",
+        "image_column_size": "6",
+        "image_overlap": false,
+        "show_image_reverse": false,
+        "hover_effect": false,
+        "image_animation": "none",
+        "image": "shopify:\/\/shop_images\/image_23.png",
+        "link": "",
+        "link_2": "",
+        "second_image_offset_top": 10,
+        "title": "THE WIDE WORLD OF SARTO",
+        "sub_title": "",
+        "text": "<p>Sarto is a luxury boutique concept which represents some of the world’s most illustrious fashion Maisons. Our flagship store is located on the Mediterranean island of Malta, in the heart of the fashionable St Julians. Set across two floors, Sarto houses curated edits of the latest designer collections, hand-picked from the runways and showrooms of Paris, London and Milan. At Sarto, we see fashion as an art form: the fruit of a fine creative process that empowers the wearer through self-expression. Today, Sarto proudly carries brands such as Burberry, Dolce & Gabbana, Moncler, Ermenegildo Zegna, Valentino, Saint Laurent, Wolford, Stella McCartney and Fendi among others.<\/p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--link",
+        "button_size": "",
+        "padding_top": 80,
+        "padding_bottom": 40,
+        "custom_class": "world-of-sarto",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_NFdhV8": {
+      "type": "custom-content",
+      "blocks": {
+        "text_ncBQNb": {
+          "type": "text",
+          "settings": {
+            "title": "THE WIDE WORLD OF SARTO",
+            "subheading": "",
+            "text": "<p>Sarto is a luxury boutique concept which represents some of the world’s most illustrious fashion Maisons. Our flagship store is located on the Mediterranean island of Malta, in the heart of the fashionable St Julians. Set across two floors, Sarto houses curated edits of the latest designer collections, hand-picked from the runways and showrooms of Paris, London and Milan. At Sarto, we see fashion as an art form: the fruit of a fine creative process that empowers the wearer through self-expression. Today, Sarto proudly carries brands such as Burberry, Dolce & Gabbana, Moncler, Ermenegildo Zegna, Valentino, Saint Laurent, Wolford, Stella McCartney and Fendi among others.<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "content",
+            "animations": "inherit"
+          }
+        },
+        "image_9cyyVf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_23.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_ncBQNb",
+        "image_9cyyVf"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "world-of-sarto first"
+      }
+    },
+    "rich_text_8c6krE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3Uxmpc": {
+          "type": "heading",
+          "settings": {
+            "heading": "“Lorem ispum sarto dor.”",
+            "heading_size": "h2"
+          }
+        },
+        "subheading_dzWg8A": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Michelle Farrugia"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3Uxmpc",
+        "subheading_dzWg8A"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": "sarto-dor",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_VddVkj": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "layout": "left",
+        "image_column_size": "6",
+        "image_overlap": false,
+        "show_image_reverse": false,
+        "hover_effect": false,
+        "image_animation": "none",
+        "image": "shopify:\/\/shop_images\/about-sarto.png",
+        "link": "",
+        "link_2": "",
+        "second_image_offset_top": 10,
+        "title": "THE SERVICE",
+        "sub_title": "",
+        "text": "<p>Sarto is a luxury boutique concept which represents some of the world’s most illustrious fashion Maisons. Our flagship store is located on the Mediterranean island of Malta, in the heart of the fashionable St Julians. Set across two floors, Sarto houses curated edits of the latest designer collections, hand-picked from the runways and showrooms of Paris, London and Milan. At Sarto, we see fashion as an art form: the fruit of a fine creative process that empowers the wearer through self-expression. Today, Sarto proudly carries brands such as Burberry, Dolce & Gabbana, Moncler, Ermenegildo Zegna, Valentino, Saint Laurent, Wolford, Stella McCartney and Fendi among others.<\/p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--link",
+        "button_size": "",
+        "padding_top": 40,
+        "padding_bottom": 80,
+        "custom_class": "world-of-sarto two",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_8n8nBM": {
+      "type": "custom-content",
+      "blocks": {
+        "image_B66TMf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-sarto.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_aq6knB": {
+          "type": "text",
+          "settings": {
+            "title": "THE SERVICE",
+            "subheading": "",
+            "text": "<p>Sarto is a luxury boutique concept which represents some of the world’s most illustrious fashion Maisons. Our flagship store is located on the Mediterranean island of Malta, in the heart of the fashionable St Julians. Set across two floors, Sarto houses curated edits of the latest designer collections, hand-picked from the runways and showrooms of Paris, London and Milan. At Sarto, we see fashion as an art form: the fruit of a fine creative process that empowers the wearer through self-expression. Today, Sarto proudly carries brands such as Burberry, Dolce & Gabbana, Moncler, Ermenegildo Zegna, Valentino, Saint Laurent, Wolford, Stella McCartney and Fendi among others.<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "content",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_B66TMf",
+        "text_aq6knB"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "custom_class": "world-of-sarto"
+      }
+    },
+    "scrolling_promotion_3b6Xzr": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "image_kgUrcN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider_1.png",
+            "image_height": 200,
+            "image_link": ""
+          }
+        },
+        "image_bxgWPN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider_2.png",
+            "image_height": 180,
+            "image_link": ""
+          }
+        },
+        "image_bJxPHH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider_3.png",
+            "image_height": 200,
+            "image_link": ""
+          }
+        },
+        "image_ARMGkL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sldier_4.png",
+            "image_height": 200,
+            "image_link": ""
+          }
+        },
+        "image_zkVGA7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_six.png",
+            "image_height": 120,
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kgUrcN",
+        "image_bxgWPN",
+        "image_bJxPHH",
+        "image_ARMGkL",
+        "image_zkVGA7"
+      ],
+      "settings": {
+        "container": "w-full",
+        "direction": "left",
+        "speed": 30,
+        "item_gap": 20,
+        "item_gap_mobile": 10,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "custom_class": "mt-5 about-sliding"
+      }
+    },
+    "image_with_text_2_nryfeW": {
+      "type": "image-with-text-2",
+      "settings": {
+        "color_scheme": "",
+        "container": "w-full",
+        "hero_size": "large",
+        "show_overlay": true,
+        "image": "shopify:\/\/shop_images\/Sarto_Banner.png",
+        "image_link": "",
+        "parallax": false,
+        "parallax_direction": "vertical",
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "text_alignment_mobile": "center",
+        "use_content_above": false,
+        "custom_class": "fw-img",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "custom_content_AF4Wkb": {
+      "type": "custom-content",
+      "blocks": {
+        "html_p7t8B8": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"title\">Visit Our Store<\/h2>\n\n    <div class=\"faq address\">\n      <p style=\"color: #977d61\">\n      2, Ross Street,<br>\n      St.Julians,<br>\n      Malta<br>\n      STJ 3246\n<br><br>\n      <a href=\"#\">+356 2202 1601<\/a>\n<br><br>\n      \n      <\/p>\n<h4 class=\"hours-title\">Opening Hours<\/h4>\n      <div class=\"opening-hours\">\n        <ul>\n          <li>\n<span>Monday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Tuesday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Wednesday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Thursday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Friday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Saturday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Sunday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n        <\/ul>\n      <\/div>\n\n      <a class=\"direction\" href=\"#\">Get directions<\/a>\n    <\/div>",
+            "width": "33%",
+            "block_custom_class": "faq-store",
+            "animations": "inherit"
+          }
+        },
+        "html_BR939w": {
+          "type": "html",
+          "settings": {
+            "code": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1615.5284751883125!2d14.489685048131554!3d35.92110602126219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e456a4994a58f%3A0xe13796df81aefd0a!2sSarto!5e0!3m2!1sen!2sbd!4v1724153018098!5m2!1sen!2sbd\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+            "width": "66%",
+            "block_custom_class": "maps",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "html_p7t8B8",
+        "html_BR939w"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "custom_class": "mt-5 our-store"
+      }
+    },
+    "rich_text_QPzJLj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NcMtGi": {
+          "type": "heading",
+          "settings": {
+            "heading": "PART OF VFG GROUP",
+            "heading_size": "h2"
+          }
+        },
+        "text_ybqVi8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>VF Group is a diverse group of organisations and parent company of Sarto. Its story spans more than four decades and is one that is built on passion, innovation and unwavering determination. Starting off as tailoring manufactures on the island of Malta, the vision was clear, even in those early days: to deliver fine quality products and experiences through a steadfast commitment to quality, design and good taste. VF Group may have grown exponentially, but its founding values of respect, understanding and care remaining ingrained in the company’s DNA, and are apparent in the relationships enjoyed with customers, partners and colleagues alike. The company employs a workforce of over 150 across its three key divisions: Fashion & Retail, Manufacturing & Uniformity and Media & Design. VF Group is an undisputed market leader with an unmatched portfolio of Malta’s most recognisable corporate and consumer brands. <\/p>"
+          }
+        },
+        "button_9AW8Wx": {
+          "type": "button",
+          "settings": {
+            "button_label": "For more information visit vfgroup.mt",
+            "button_link": "#",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_NcMtGi",
+        "text_ybqVi8",
+        "button_9AW8Wx"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "mt-5 vfg-group",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_dENTHA",
+    "image_with_text_2_M4CdBy",
+    "custom-content",
+    "image_with_text_UJMkA4",
+    "custom_content_NFdhV8",
+    "rich_text_8c6krE",
+    "image_with_text_VddVkj",
+    "custom_content_8n8nBM",
+    "scrolling_promotion_3b6Xzr",
+    "image_with_text_2_nryfeW",
+    "custom_content_AF4Wkb",
+    "rich_text_QPzJLj"
+  ]
+}

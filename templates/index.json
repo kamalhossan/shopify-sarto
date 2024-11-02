@@ -1,0 +1,680 @@
+{
+  "sections": {
+    "custom_content_QDcctR": {
+      "type": "custom-content",
+      "blocks": {
+        "image_JHHcNL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo.svg",
+            "link": "\/",
+            "width": "66%",
+            "alignment": "center",
+            "block_custom_class": "maxfive",
+            "animations": "inherit"
+          }
+        },
+        "text_cpdbP7": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "<p>SARTO EMBODIES A SIMPLE CONCEPT: CURATE A COLLECTION THAT OFFERS ACCESSIBLE, STYLISH, AND VERSATILE OPTIONS, BLENDING SPORTY, CASUAL, AND URBAN ELEMENTS, CATERING TO A DIVERSE AGE RANGE.<\/p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_JHHcNL",
+        "text_cpdbP7"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "hero-top mt-5"
+      }
+    },
+    "custom_content_jbzVVR": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_yaNzi3": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "color_scheme": "",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "large",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/women.jpg",
+            "link": "shopify:\/\/collections\/women",
+            "title": "Women",
+            "subtitle": "",
+            "description": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_X86tQk": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "color_scheme": "",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "large",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/men.png",
+            "link": "#",
+            "title": "Men",
+            "subtitle": "",
+            "description": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_JXWmKa": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "color_scheme": "",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "large",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/children.jpg",
+            "link": "#",
+            "title": "Children",
+            "subtitle": "",
+            "description": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_gDENVU": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "color_scheme": "",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "large",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/lifestyle.jpg",
+            "link": "#",
+            "title": "Lifestyle",
+            "subtitle": "",
+            "description": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_yaNzi3",
+        "image_card_X86tQk",
+        "image_card_JXWmKa",
+        "image_card_gDENVU"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "custom_class": "home-hero"
+      }
+    },
+    "custom_content_k6tzAU": {
+      "type": "custom-content",
+      "blocks": {
+        "text_4BwVaC": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "<h3>Extra <strong>20% OFF SS24<\/strong><\/h3><p>USE CODE <strong>SARTOSS24<\/strong> AT CHECKOUT<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_4BwVaC"
+      ],
+      "custom_css": [
+        "h3 {margin: 0;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "scheme-ed396a48-3ddd-453c-a17d-405a4170048d",
+        "content_color_scheme": "scheme-ed396a48-3ddd-453c-a17d-405a4170048d",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 0,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "custom_class": "border-top-bottom mt-5 promotion"
+      }
+    },
+    "custom_content_jKqVQT": {
+      "type": "custom-content",
+      "blocks": {
+        "text_LDaTrV": {
+          "type": "text",
+          "settings": {
+            "title": "WOMENS New Arrivals",
+            "subheading": "",
+            "text": "<p>Stay ahead of the curve with the latest arrivals <\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_LDaTrV"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "scheme-71bdeae8-df50-4930-8295-f0cf132ff273",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "custom_class": "mt-5 features-title"
+      }
+    },
+    "featured_collection_9aFLGV": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "",
+        "container": "container-fluid",
+        "collection": "women",
+        "enable_flashsale": false,
+        "show_countdown": true,
+        "product_to_show": 4,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": true,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "show_button_on_header": false,
+        "button_type": "link",
+        "button_text": "Shop new arrivals",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "primary-button",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_EYdp6g": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 40,
+        "custom_class": ""
+      }
+    },
+    "custom_content_ntbWcF": {
+      "type": "custom-content",
+      "blocks": {
+        "text_7Eq8pF": {
+          "type": "text",
+          "settings": {
+            "title": "Mens New Arrivals",
+            "subheading": "",
+            "text": "<p>A collection of year-round  essentials designed for all occasions. Anytime. Anywhere.<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_7Eq8pF"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "scheme-71bdeae8-df50-4930-8295-f0cf132ff273",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "mt-5 features-title"
+      }
+    },
+    "featured_collection_6DFVEi": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "",
+        "container": "container-fluid",
+        "collection": "mens",
+        "enable_flashsale": false,
+        "show_countdown": true,
+        "product_to_show": 4,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": true,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "show_button_on_header": false,
+        "button_type": "link",
+        "button_text": "Shop new arrivals",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "primary-button",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_qt7Try": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 40,
+        "custom_class": ""
+      }
+    },
+    "custom_content_VbRipD": {
+      "type": "custom-content",
+      "blocks": {
+        "text_Wgp6jk": {
+          "type": "text",
+          "settings": {
+            "title": "Children New Arrivals",
+            "subheading": "",
+            "text": "<p>A collection of year-round  essentials designed for all occasions. Anytime. Anywhere.<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_Wgp6jk"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "scheme-71bdeae8-df50-4930-8295-f0cf132ff273",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "mt-5 features-title"
+      }
+    },
+    "featured_collection_t4LhHa": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "",
+        "container": "container-fluid",
+        "collection": "life-style",
+        "enable_flashsale": false,
+        "show_countdown": true,
+        "product_to_show": 4,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": true,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "show_button_on_header": false,
+        "button_type": "link",
+        "button_text": "Shop new arrivals",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "primary-button",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_YciqHN": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 40,
+        "custom_class": ""
+      }
+    },
+    "custom_content_P9PhG4": {
+      "type": "custom-content",
+      "blocks": {
+        "text_i7hKYe": {
+          "type": "text",
+          "settings": {
+            "title": "LifeStyle New Arrivals",
+            "subheading": "",
+            "text": "<p>A collection of year-round  essentials designed for all occasions. Anytime. Anywhere.<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_i7hKYe"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "scheme-71bdeae8-df50-4930-8295-f0cf132ff273",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "mt-5 features-title"
+      }
+    },
+    "featured_collection_9UdGBH": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "",
+        "container": "container-fluid",
+        "collection": "children",
+        "enable_flashsale": false,
+        "show_countdown": true,
+        "product_to_show": 4,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": true,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "show_button_on_header": false,
+        "button_type": "link",
+        "button_text": "Shop new arrivals",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "primary-button",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_CxBBTD": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": ""
+      }
+    },
+    "footter_top_HzedVL": {
+      "type": "footter-top",
+      "blocks": {
+        "image_above_content_wjKXkE": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Our Store",
+            "description": "<p><strong>STORE HOURS<\/strong><br\/>Monday to Thursday: 10:00 till 19:00<br\/>Friday to Saturday: 10:00 till 20:00<br\/>Sunday: Closed<\/p><p><a href=\"#\" title=\"#\">Get directions<\/a><\/p><p>Ross Street, St Julians, Malta STJ3246<\/p><p><a href=\"#\" title=\"#\">T: 2202 1601<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_one.png",
+            "link": ""
+          }
+        },
+        "image_above_content_bqnUrL": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Sarto <em>VIP<\/em>",
+            "description": "<p>Become a Keyholder and unlock exclusive invites, first looks, free delivery, monthly prizes and regular donations.<\/p><p><a href=\"#\" title=\"#\">Discover more<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/Image_two.png",
+            "link": ""
+          }
+        },
+        "image_above_content_bnPm8i": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Loyalty Scheme",
+            "description": "<p>Become a Keyholder and unlock exclusive invites, first looks, free delivery, monthly prizes and regular donations.<\/p><p><a href=\"#\" title=\"#\">Discover more<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_three.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_above_content_wjKXkE",
+        "image_above_content_bqnUrL",
+        "image_above_content_bnPm8i"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "custom_content_QDcctR",
+    "custom_content_jbzVVR",
+    "custom_content_k6tzAU",
+    "custom_content_jKqVQT",
+    "featured_collection_9aFLGV",
+    "empty_space_EYdp6g",
+    "custom_content_ntbWcF",
+    "featured_collection_6DFVEi",
+    "empty_space_qt7Try",
+    "custom_content_VbRipD",
+    "featured_collection_t4LhHa",
+    "empty_space_YciqHN",
+    "custom_content_P9PhG4",
+    "featured_collection_9UdGBH",
+    "empty_space_CxBBTD",
+    "footter_top_HzedVL"
+  ]
+}

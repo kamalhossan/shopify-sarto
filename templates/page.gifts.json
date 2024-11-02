@@ -1,0 +1,492 @@
+{
+  "sections": {
+    "breadcrumb_RHyjx4": {
+      "type": "breadcrumb",
+      "disabled": true,
+      "settings": {
+        "container": "container-fluid",
+        "text_alignment": "left",
+        "hide_current": false,
+        "hide_on_mb": false,
+        "animations": "inherit"
+      }
+    },
+    "rich_text_AzprtD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_A8khHV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gifts",
+            "heading_size": "h2"
+          }
+        },
+        "text_XPDzBa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From gifts for him to gifts for her, unexpected little treats and luxury gifts – we’ve got present-buying all wrapped up here at SARTO.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_A8khHV",
+        "text_XPDzBa"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "custom_class": "giftp-title",
+        "animations": "inherit"
+      }
+    },
+    "gifts_menu_6kyCcX": {
+      "type": "gifts-menu",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 30,
+        "custom_class": "",
+        "menu": "gifts-menu"
+      }
+    },
+    "slider_8aHU8b": {
+      "type": "slider",
+      "blocks": {
+        "slider_item_MnqNXB": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify:\/\/shop_images\/banner_1.png",
+            "content_in_container": true,
+            "content_position": "center middle",
+            "text_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "Gifts for her edit",
+            "description": "<p>From gifts for him to gifts for her, unexpected little treats and luxury gifts – we’ve got present-buying all wrapped up here at SARTO.<\/p>",
+            "image_link": "",
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_style": "m-button--primary",
+            "second_button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "slider_item_yaNqgq": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify:\/\/shop_images\/gifts_for_him.jpg",
+            "content_in_container": true,
+            "content_position": "center middle",
+            "text_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "Gifts for him",
+            "description": "<p>From gifts for him to gifts for her, unexpected little treats and luxury gifts – we’ve got present-buying all wrapped up here at SARTO.<\/p>",
+            "image_link": "",
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_style": "m-button--primary",
+            "second_button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "slider_item_XB9VNy": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify:\/\/shop_images\/gift_card.jpg",
+            "content_in_container": true,
+            "content_position": "center middle",
+            "text_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "Gift Card",
+            "description": "<p>From gifts for him to gifts for her, unexpected little treats and luxury gifts – we’ve got present-buying all wrapped up here at SARTO.<\/p>",
+            "image_link": "",
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_style": "m-button--primary",
+            "second_button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "slider_item_Qm3KN6": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify:\/\/shop_images\/valentines.jpg",
+            "content_in_container": true,
+            "content_position": "center middle",
+            "text_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "Valentines",
+            "description": "<p>From gifts for him to gifts for her, unexpected little treats and luxury gifts – we’ve got present-buying all wrapped up here at SARTO.<\/p>",
+            "image_link": "",
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_style": "m-button--primary",
+            "second_button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slider_item_MnqNXB",
+        "slider_item_yaNqgq",
+        "slider_item_XB9VNy",
+        "slider_item_Qm3KN6"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "slideshow_height": "medium",
+        "show_overlay": false,
+        "dots_position": "bottom",
+        "dots_color": "dark",
+        "show_dots": true,
+        "show_arrows": false,
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "use_content_above": false,
+        "custom_class": "gifts-slider",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_6YXx6b": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 20,
+        "custom_class": ""
+      }
+    },
+    "custom_content_nKhH7y": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_tz6CHm": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "color_scheme": "default",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "image": "shopify:\/\/shop_images\/gift_for_her.jpg",
+            "link": "",
+            "title": "GIFTS FOR HER",
+            "subtitle": "",
+            "description": "",
+            "button_label": "View",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_t7rWpT": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "color_scheme": "default",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "image": "shopify:\/\/shop_images\/gifts_for_him.jpg",
+            "link": "",
+            "title": "Gifts for him",
+            "subtitle": "",
+            "description": "",
+            "button_label": "View",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_TaCaUJ": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "color_scheme": "default",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "image": "shopify:\/\/shop_images\/valentines.jpg",
+            "link": "",
+            "title": "Valentines",
+            "subtitle": "",
+            "description": "",
+            "button_label": "View",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_diwcGJ": {
+          "type": "image_card",
+          "settings": {
+            "width": "25%",
+            "color_scheme": "default",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "image": "shopify:\/\/shop_images\/for_kids.jpg",
+            "link": "",
+            "title": "For kids",
+            "subtitle": "",
+            "description": "",
+            "button_label": "View",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_tz6CHm",
+        "image_card_t7rWpT",
+        "image_card_TaCaUJ",
+        "image_card_diwcGJ"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 20,
+        "custom_class": "gifts-cards"
+      }
+    },
+    "what_to_wear_77wLzE": {
+      "type": "what-to-wear",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": "",
+        "image": "shopify:\/\/shop_images\/image_six.png",
+        "heading": "What to Wear Now",
+        "sub_heading": "Our Experts Edit",
+        "description": "<p>Discover our favourite layers, all-weather boots and leather accessories that are perfect for the change of season.<\/p>",
+        "url": "#",
+        "product_1": "balmain",
+        "product_2": "black-leather-bag",
+        "product_3": "choker-with-triangle"
+      }
+    },
+    "custom_content_6nNDnj": {
+      "type": "custom-content",
+      "blocks": {
+        "image_LcN9tx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift_card.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_tWFVTq": {
+          "type": "text",
+          "settings": {
+            "title": "SARTO Gift Card",
+            "subheading": "",
+            "text": "<p>Members of SARTO Rewards earn purchase rewards points and other exclusive perks. Get 500 bonus points when you sign up.<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "Buy Now",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_LcN9tx",
+        "text_tWFVTq"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 60,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "custom_class": "bg-primary gift-card border-bottom"
+      }
+    },
+    "icon_box_4cYjjJ": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_8b3bMX": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_ebTDcz": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_km84Qz": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_8b3bMX",
+        "iconbox_ebTDcz",
+        "iconbox_km84Qz"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_per_row": 3,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_color_scheme": "",
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": true,
+        "show_pagination": true,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "product-highlights",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "breadcrumb_RHyjx4",
+    "rich_text_AzprtD",
+    "gifts_menu_6kyCcX",
+    "slider_8aHU8b",
+    "empty_space_6YXx6b",
+    "custom_content_nKhH7y",
+    "what_to_wear_77wLzE",
+    "custom_content_6nNDnj",
+    "icon_box_4cYjjJ"
+  ]
+}

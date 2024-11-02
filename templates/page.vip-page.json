@@ -1,0 +1,359 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-about-us",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "rich_text_dENTHA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3XXcaK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Personal Shopping & Fashion Styling",
+            "heading_size": "h2"
+          }
+        },
+        "subheading_UJ9tzB": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "AT SARTO ST.JULIANS"
+          }
+        },
+        "text_3qz8Pb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevate your personal style with our exclusive styling service. Our experienced and talented stylists are here to curate a wardrobe that reflects your unique taste, lifestyle, and preferences. Whether you're looking for a complete wardrobe overhaul, outfit selections for special occasions, or simply seeking fashion advice, our stylists are dedicated to enhancing your individuality.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3XXcaK",
+        "subheading_UJ9tzB",
+        "text_3qz8Pb"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": "mt-5 page-about sarto-vip",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_NCe6ih": {
+      "type": "custom-content",
+      "blocks": {
+        "image_TTRMhQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-sarto.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "html_nmTaXa": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"vip-experience\">\n        <h2>Experience Title<\/h2>\n        <p>\n          Elevate your personal style with our exclusive styling service. Our\n          experienced and talented stylists are here to curate a wardrobe that\n          reflects your unique taste, lifestyle, and preferences. Whether you're\n          looking for a complete wardrobe overhaul, outfit selections for\n          special occasions, or simply seeking fashion advice, our stylists are\n          dedicated to enhancing your individuality.\n        <\/p>\n        <div class=\"services\">\n          <h4>Services Offered<\/h4>\n          <ul class=\"services-list\">\n            <li>Food &amp; beverages<\/li>\n            <li>Food &amp; beverages<\/li>\n            <li>Food &amp; beverages<\/li>\n            <li>Food &amp; beverages<\/li>\n            <li>Food &amp; beverages<\/li>\n            <li>Food &amp; beverages<\/li>\n          <\/ul>\n        <\/div>\n        <div class=\"action\">\n          <a class=\"url\" href=\"#\">Check availability<\/a>\n        <\/div>\n      <\/div>",
+            "width": "50%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_TTRMhQ",
+        "html_nmTaXa"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "custom_class": "vip-ex"
+      }
+    },
+    "empty_space_yBh3Mr": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 20,
+        "padding_bottom": 80,
+        "custom_class": ""
+      }
+    },
+    "icon_box_rdBLiH": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_D93cVe": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "STYLIST",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_CgNRJG": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "OCCASION FOCUSED",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_kPnbaf": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "FOOD & BEVERAGES",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_BPtjrg": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "FINEST EDIT IN LUXURY",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_D93cVe",
+        "iconbox_CgNRJG",
+        "iconbox_kPnbaf",
+        "iconbox_BPtjrg"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_per_row": 4,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_color_scheme": "",
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": true,
+        "show_pagination": true,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "product-highlights",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_j7kxGK": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "custom_content_K8dxLB": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_Eq4TDL": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "color_scheme": "scheme-08c17262-3f8f-4a66-bb19-6324cce0555b",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "image": "shopify:\/\/shop_images\/room_1.png",
+            "link": "",
+            "title": "ROOM 1",
+            "subtitle": "",
+            "description": "<p>Indulge in the luxury of our spacious private changing room, designed for events, offering ample space, elegant furnishings, and exclusive amenities to ensure you feel pampered and perfectly prepared for any occasion.<\/p>",
+            "button_label": "View Gallery",
+            "button_style": "m-button--link",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_ekbtrT": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "color_scheme": "scheme-08c17262-3f8f-4a66-bb19-6324cce0555b",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "image": "shopify:\/\/shop_images\/sarto_2.png",
+            "link": "",
+            "title": "ROOM 2",
+            "subtitle": "",
+            "description": "<p>Indulge in the luxury of our spacious private changing room, designed for events, offering ample space, elegant furnishings, and exclusive amenities to ensure you feel pampered and perfectly prepared for any occasion.<\/p>",
+            "button_label": "View Gallery",
+            "button_style": "m-button--link",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_Eq4TDL",
+        "image_card_ekbtrT"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "vip-room"
+      }
+    },
+    "empty_space_3BaXT9": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "custom_content_AF4Wkb": {
+      "type": "custom-content",
+      "blocks": {
+        "html_p7t8B8": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"title\">Visit Our Store<\/h2>\n\n    <div class=\"faq address\">\n      <p style=\"color: #977d61\">\n      2, Ross Street,<br>\n      St.Julians,<br>\n      Malta<br>\n      STJ 3246\n<br><br>\n      <a href=\"#\">+356 2202 1601<\/a>\n<br><br>\n      \n      <\/p>\n<h4 class=\"hours-title\">Opening Hours<\/h4>\n      <div class=\"opening-hours\">\n        <ul>\n          <li>\n<span>Monday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Tuesday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Wednesday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Thursday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Friday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Saturday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Sunday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n        <\/ul>\n      <\/div>\n\n      <a class=\"direction\" href=\"#\">Get directions<\/a>\n    <\/div>",
+            "width": "33%",
+            "block_custom_class": "faq-store",
+            "animations": "inherit"
+          }
+        },
+        "html_BR939w": {
+          "type": "html",
+          "settings": {
+            "code": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1615.5284751883125!2d14.489685048131554!3d35.92110602126219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e456a4994a58f%3A0xe13796df81aefd0a!2sSarto!5e0!3m2!1sen!2sbd!4v1724153018098!5m2!1sen!2sbd\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+            "width": "66%",
+            "block_custom_class": "maps",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "html_p7t8B8",
+        "html_BR939w"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "custom_class": "mt-5 our-store"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_dENTHA",
+    "custom_content_NCe6ih",
+    "empty_space_yBh3Mr",
+    "icon_box_rdBLiH",
+    "empty_space_j7kxGK",
+    "custom_content_K8dxLB",
+    "empty_space_3BaXT9",
+    "custom_content_AF4Wkb"
+  ]
+}

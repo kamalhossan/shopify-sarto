@@ -1,0 +1,108 @@
+{% liquid
+  if section.settings.custom_class != blank
+    assign classes = section.settings.custom_class
+  endif
+  
+%}
+
+{%- style -%}
+  .m-section-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<section
+    id="m-section-{{ section.id }}"
+    class="m-section-{{ section.id }} m-gradient m-color-{{ section.settings.color_scheme }}"
+  >
+    <div class="{{ section.settings.container }} {{ classes }} sarto-footer-top-content">
+
+      {% assign menu = linklists[section.settings.menu] %}
+      {% if menu.links != blank %}
+          <ul class="gifts-menus links">
+                {% for link in menu.links %}
+                    <li class="link-lv2 leading-8 hover-underline">
+                        <a href="{{ link.url }}">
+                            {{ link.title }}
+                        </a>
+                    </li>
+                {% endfor %}
+          </ul>
+      {% endif %}
+
+    </div>
+</section>
+
+
+{% schema %}
+
+{
+    "name": "Sarto menu",
+    "class": "sarto-menus",
+    "settings": [
+        {
+            "type": "select",
+            "id": "container",
+            "label": "Container type",
+            "default": "container-fluid",
+            "options": [
+              {
+                "value": "container-fluid",
+                "label": "Default"
+              },
+              {
+                "value": "w-full",
+                "label": "Full width"
+              },
+              {
+                "value": "container",
+                "label": "Use container box"
+              }
+            ]
+        },
+        {
+            "type": "color_scheme",
+            "id": "color_scheme",
+            "label": "Color scheme"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "label": "Padding Top",
+            "default": 0,
+            "min": 0,
+            "max": 100,
+            "step": 2,
+            "unit": "px"
+          },
+          {
+            "type": "range",
+            "id": "padding_bottom",
+            "label": "Padding Bottom",
+            "default": 0,
+            "min": 0,
+            "max": 100,
+            "step": 2,
+            "unit": "px"
+          },
+          {
+            "type": "text",
+            "id": "custom_class",
+            "label": "Custom classes"
+          },
+          {
+            "type": "link_list",
+            "id": "menu",
+            "label": "Select Menu",
+            "default": "main-menu",
+          }
+    ],
+    "presets": [
+        {
+        "name": "Sarto Menu",
+        }
+    ]
+}
+
+{% endschema %}

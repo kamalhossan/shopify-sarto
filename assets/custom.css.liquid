@@ -1,0 +1,3452 @@
+{% comment %}
+  All custom CSS in this file will be kept when updating the theme
+  Write your custom CSS below
+
+
+@font-face {
+  font-family: "MavenPro";
+  src: url("{{ 'MavenPro.eot' | asset_url }}"); /* IE9 Compat Modes */
+  src: url("{{ 'MavenPro.eot?#iefix' | asset_url }}") format("embedded-opentype"), /* IE6-IE8 */
+       url("{{ 'MavenPro.woff2' | asset_url }}") format("woff2"), /* Modern Browsers */
+       url("{{ 'MavenPro.woff' | asset_url }}") format("woff"), /* Modern Browsers */
+       url("{{ 'MavenPro.ttf' | asset_url }}") format("truetype"), /* Safari, Android, iOS */
+       url("{{ 'MavenPro.svg#MavenPro' | asset_url }}") format("svg"); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heldane Display';
+    src: url("{{'HeldaneDisplay-Regular.woff2' | asset_url }}") format('woff2'),
+        url("{{ 'HeldaneDisplay-Regular.woff' | asset_url }}") format('woff'),
+        url("{{ 'HeldaneDisplay-Regular.ttf' | asset_url }}") format('truetype');
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heldane Display';
+    src: url("{{ 'HeldaneDisplay-RegularItalic.woff2' | asset_url }}") format('woff2'),
+        url("{{ 'HeldaneDisplay-RegularItalic.woff' | asset_url }}") format('woff'),
+        url("{{ 'HeldaneDisplay-RegularItalic.ttf' | asset_url }}") format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+  font-family: "MavenPro", Arial, sans-serif !important;
+}
+{% endcomment %}
+{% comment %}
+:root {
+  --font-stack-header: "MavenPro", Arial, sans-serif !important;
+  --font-stack-body: "MavenPro", Arial, sans-serif !important;
+}
+{% endcomment %}
+
+.template-index .m-header.m-header {
+    display: none;
+}
+
+a.m-button:hover {
+    box-shadow: none !important;
+}
+
+.home-hero h3, .features-title h3 {
+  text-transform: uppercase;
+}
+
+.hero-top .maxfive .m-custom-content__block-inner.m\:w-full {
+    max-width: 500px;
+}
+
+.home-offer {
+    background: #F9F4F0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #977D61;
+}
+
+.home-offer h2 {
+  font-weight: 600;
+}
+
+.mt-5 {
+  margin-top: 50px;
+}
+.mb-5 {
+  margin-bottom: 50px;
+}
+
+ul.footer-terms {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+ul.footer-terms li {
+    position: relative;
+}
+
+ul.footer-terms li:not(:last-child):after {
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 1px;
+    background: #fff;
+    top: 4px;
+    right: -10px;
+}
+
+.shopify-section.shopify-section-group-footer-group {
+    text-transform: uppercase;
+}
+
+.m-footer--block.m-footer--block-newsletter h3 {
+    font-size: 1.7rem !important;
+    margin-bottom: 30px !important;
+}
+
+.m-footer--block.m-footer--block-newsletter h3 {
+  font-size: 1.7rem !important;
+  margin-bottom: 30px !important;
+}
+
+.border-top-bottom {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #977D61;
+}
+
+.sarto-footer-top-content, .collection-sub-category {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.sarto-footer-top-content h2 {
+  text-transform: uppercase;
+  color: #977D61;
+}
+
+.sarto-footer-top-content a {
+  text-decoration: underline;
+}
+
+.sarto-footer-top-content * {
+  margin-bottom: 20px;
+}
+
+.sarto-footer-top-content p {
+  color: #110904;
+}
+
+.m-footer button.m-newsletter-form__button.m-newsletter-form__button--text.m-button.m-button--primary {
+    background: transparent;
+    color: #977D61;
+    border: none;
+    font-weight: 600;
+}
+
+.m-footer--block-newsletter .m-newsletter-form--bordered .m-newsletter-form__input{
+    background-color: #FAF6F6 !important;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #977d61;
+    border-radius: 0;
+}
+
+.m-footer button.m-newsletter-form__button.m-newsletter-form__button--text.m-button.m-button--primary{
+    background: transparent;
+    color: #977d61;
+    border: none;
+    font-weight: 600;
+    padding-right: 0;
+    padding-left: 0
+}
+
+.m-footer--block-newsletter .m-footer--block-title {
+  font-weight: 500 !important;
+}
+
+.m-footer--block-inner p.terms {
+    position: absolute;
+    left: 19px;
+    bottom: -100px;
+    color: #828282;
+    text-transform: uppercase;
+}
+.m-footer--block-inner p.terms a {
+  text-decoration: underline;
+}
+{% comment %}
+.primary-button .m-button--primary {
+    background-color: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+    color: #110904;
+    text-decoration: underline !important;
+    font-size: 1rem;
+}
+{% endcomment %}
+
+.collection-blogs h2.m-section__heading {
+    color: #977d61;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.collection-blogs span.m-article-card__tags {
+    text-transform: uppercase;
+    color: #977D61 !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.collection-blogs h3.m-article-card__title {
+    color: #110904 !important;
+    font-size: 1.275rem !important;
+    line-height: 1.3em;
+    font-weight: 400 !important;
+}
+
+.collection-promotions .m-gradient.m-color-default {
+    background: transparent;
+    color: #fff;
+}
+
+.collection-promotions h3.m-richtext__title.h2 {
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.collection-promotions off {
+    font-weight: 300 !important;
+}
+
+.collection-promotions h3.m-richtext__title.h2 .off {
+    font-weight: 300;
+}
+
+.collection-promotions .promotion-sidebar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+}
+
+.collection-promotions .m-custom-content__block-html {
+    align-items: center;
+}
+
+a.pro-button {
+    padding: 10px 50px;
+    background: #FFFFFF36;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+.collection-promotions .terms a {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.collection-wardrobe h2 {
+    color: #110904;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.collection-top-card picture.m-media__wrapper img {
+    max-height: 660px !important;
+    overflow: hidden;
+}
+
+.collection-top-card .m-image-card__img {
+    max-height: 660px;
+}
+
+.collection-top-card h3.m-richtext__title.m-image-card__heading {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.collection-top-card a.m-richtext__button.m-button.m-button--secondary {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.collection-top-card .m-richtext__description {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.m-footer--middle .m-footer--block-title {
+  font-weight: 600;
+}
+
+.collection-beuty h2 {
+    color: #110904;
+    text-align: left;
+    font-size: 2.125rem;
+    font-weight: 400;
+    margin-top: 40px;
+    text-transform: unset;
+}
+
+.winter-essentials p.m-richtext__subtitle {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 6rem;
+}
+
+.winter-essentials h3.m-richtext__title {
+    text-transform: uppercase;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.winter-essentials .m-richtext__description {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.winter-essentials .m-richtext__description.rte.m-content-box__description.h6 {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.collection-wardrobe a {
+    text-decoration: none;
+}
+
+.collection-sub-category h2 {
+  text-align: center;
+  color: #110904;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.collection-sub-category h2 a {
+  text-decoration: none;
+  font-weight: inherit;
+  text-transform: uppercase;
+}
+
+.winter-essentials a.m-button.m-button--secondary {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.lemaire a.m-richtext__button.m-button.m-button--primary {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.collection-sub-cat-info h2 {
+  text-align: center;
+  color: #977D61;
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.collection-sub-cat-info p {
+  text-align: center;
+  color: #110904;
+  font-size: 1rem;
+  font-weight: 400;
+} 
+
+.collection-sub-cat-info {
+  margin-bottom: 60px;
+}
+
+.collection-sub-cat-info * {
+  margin-bottom: 20px;
+}
+
+.collection-sub-category .feature-image {
+  margin-bottom: 30px;
+}
+
+{% comment %}
+ wHAT TO WEAR
+{% endcomment %}
+
+.what-to-wear {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+.what-to-wear .features-image {
+  height: 90vh;
+  overflow: hidden;
+}
+.what-to-wear .features-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.what-to-wear * {
+  margin-bottom: 2rem;
+}
+.what-to-wear a {
+  text-decoration: underline;
+}
+.what-to-wear h2 {
+  text-transform: uppercase;
+  color: #110904;
+  font-size: 2.2rem;
+}
+.what-to-wear .sub-heading {
+  color: #696969;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.what-to-wear .features-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 0px;
+}
+.container-fluid.page .what-to-wear {
+  align-items: center;
+}
+.gifts .shopify-section-group-footer-group {
+    border-top: 1px solid #977d61;
+}
+.border-bottom{
+  border-bottom: 1px solid #977D61;
+}
+.container-fluid.page .what-to-wear .features-products {
+  margin-bottom: 0px;
+}
+.container-fluid.page .wtw-products {
+    margin-bottom: 0;
+}
+
+.container-fluid.page .what-to-wear .sub-heading {
+    font-weight: 500;
+    color: #000;
+    text-transform: unset;
+    text-transform: uppercase;
+}
+
+.container-fluid.page .what-to-wear h2 {
+    color: #000;
+    text-transform: unset;
+    font-size: 3.5rem;
+}
+.what-to-wear .features-products .products-image {
+  width: 100%;
+  height: 270px;
+}
+.what-to-wear .features-products .products-image img {
+ object-fit: cover;
+ width: 100%;
+ height: 100%;
+ object-position: center;
+}
+
+.what-to-wear .features-products .products-title {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #110904;
+  text-transform: uppercase;
+}
+
+.what-to-wear .features-products .products-title  a {
+  text-decoration: none;
+}
+.what-to-wear .features-products .products-price {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #977D61;
+}
+
+.what-to-wear .features-products .products-description p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #656565;
+}
+.lemaire h3.m-richtext__title.m-image-card__heading span {
+    text-transform: uppercase;
+}
+
+.lemaire h3.m-richtext__title.m-image-card__heading {
+    font-weight: 600;
+}
+
+.product-highlights .image-above-content-block img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.product-highlights .content {
+    text-align: center;
+}
+
+.product-highlights h2 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    text-transform: capitalize;
+    color: #977d61;
+}
+
+.product-highlights .description p {
+    color: #656565;
+    font-size: 1rem;
+}
+
+.product-highlights .image-above-content-block {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.related-product h2.m-section__heading {
+    color: #977D61;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+}
+
+.footer-top .m-icon-box-section__wrapper h3.m-icon-box__heading.h4 {
+    text-transform: uppercase;
+    color: #977d61;
+    font-size: 2.85rem;
+    font-weight: 400;
+}
+
+.footer-top .m-icon-box-section__wrapper .m-icon-box__description {
+    color: #110904;
+}
+
+.lemaire .m-richtext.m-image-card__content-inner {
+    max-width: 570px;
+}
+.main-product__block .m-product-title {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.main-product__block button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
+    border-radius: 0 !important;
+    background: transparent;
+    border-color: #977D61;
+    color: #977D61;
+    text-transform: uppercase;
+}
+
+.main-product__block button.m-add-to-cart.m-spinner-button.m-button.m-button--secondary {
+    border-radius: 0;
+    background: #110904;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.main-product__block button.shopify-payment-button__button.shopify-payment-button__button--unbranded:hover {
+    color: #fff;
+}
+.main-product__block .m-product-tax, .main-product__block .m-product-tax a {
+    color: #656565;
+}
+
+.main-product__block button.m-collapsible--button span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #110904;
+}
+.main-product__block .m-product-inventory.m-product-inventory {
+    border: 1px solid #73A1A8;
+    padding: 10px;
+    background: #E6F6F8;
+    color: #73A1A8 !important;
+}
+
+.main-product__block .m-product-inventory__inner {
+    color: #73A1A8 !important;
+}
+
+.main-product__block .m-product-inventory__pin:before, .main-product__block .m-product-inventory__pin:after {background-color: #73a1ab;}
+
+.main-product__block .m-product-inventory__indicator-bar span {
+    background-color: #73A1A8;
+}
+
+.main-product__block .m-product-option--node {
+    color: #977D61;
+}
+
+.main-product__block .m-product-option--button .m-product-option--node input:checked+label, .main-product__block .m-product-option--button .m-product-option--node__label[data-selected=true] {
+    background-color: transparent;
+    color: #977d61;
+    border-color: #977d61;
+}
+
+.main-product__block.main-product__block-short_description .m-product-description {
+    color: #110904;
+}
+
+.main-product__block .m-product-option--label .label.option-label span {
+    text-transform: uppercase;
+}
+
+.main-product__block span.option-label--title {
+    text-transform: uppercase;
+    color: #656565;
+}
+
+.main-product__block span.option-label--selected {
+    text-transform: uppercase;
+}
+
+.m-breadcrumb--item {
+    color: #656565;
+}
+
+.m-breadcrumb--item-current {
+    color: #110904;
+}
+
+h3.m-product-card__title {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #656565;
+}
+
+.m-product-card__vendor {
+    color: #000 !important;
+    font-size: 1rem !important;
+    text-transform: uppercase !important;
+}
+
+.main-product__block span.m-price-item.m-price-item--regular{
+    color: #977d61;
+    font-weight: 500;
+}
+
+.product-highlights h3.m-icon-box__heading.h4 {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #977d61;
+    margin-bottom: 15px;
+}
+
+.product-highlights .m-icon-box__description {
+    color: #977d61;
+    font-size: 1rem;
+}
+
+.faq-store h2.title {
+    color: #977d61;
+    font-size: 2.8rem;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.opening-hours ul li {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.faq-store h4.hours-title {
+    color: #977d61;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.faq-store .opening-hours ul li span {
+    font-size: 1rem;
+    color: #110904;
+}
+
+.faq-store a.direction {
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+.faq-store .opening-hours {
+    margin-bottom: 40px;
+}
+
+.vfg-group .m-richtext {
+    background: #F9F4F0;
+    padding: 40px;
+}
+
+.vfg-group h2.m-richtext__title {
+    color: #977D61;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.vfg-group .m-richtext__description {
+    color: #110904;
+    font-size: 1.2rem;
+    line-height: 1.7em;
+}
+
+.vfg-group .m-richtext__button a {
+    color: #977d61;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.sarto-faqs.m-faqs-section .m-collapsible--button {
+    border-color: #977D61;
+}
+
+.sarto-faqs.m-faqs-section .m-collapsible--button span:first-child {
+    text-transform: uppercase;
+    color: #977d61;
+}
+
+.sarto-faqs.m-faqs-section .m-collapsible--button svg {color: #977d61;}
+
+.sarto-faqs .m-faqs-section__block.m-faqs-section__block-accordion:first-child {
+    border-top: 1px solid #977d61 !important;
+}
+
+.faq-ptitle .active h3.m-richtext__title.h2 {
+    position: relative;
+    font-style: italic;
+    color: #977d61;
+}
+
+.faq-ptitle h3.m-richtext__title.h2 {
+    position: relative;
+    font-style: italic;
+    color: #828282;
+    font-size: 2.1rem;
+    font-weight: 900;
+}
+
+.faq-ptitle .active h3.m-richtext__title.h2:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #977d61;
+    border-radius: 100%;
+    bottom: -10px;
+    left: 50%;
+}
+.faq-banner .container-full {
+  margin-top: 100px;
+}
+
+.sarto-contact-form .form-fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0 40px;
+}
+
+
+.sarto-contact-form .message-fields {
+  flex: 1;
+}
+
+.sarto-contact-form .form-fields input,
+.sarto-contact-form .form-fields textarea,
+.sarto-contact-form .form-fields select {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #977D61;
+  padding: 10px;
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+.sarto-contact-form .form-fields input[type="submit"] {
+  background: #977D61;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 10px 30px;
+  width: 180px;
+  margin-top: 5vh;
+}
+.sarto-contact-form .form-fields textarea {
+  border: 1px solid #977D61;
+  min-height: 50vh;
+  padding: 10px;
+}
+
+.sarto-contact-form textarea::placeholder {
+  padding: 10px;
+  color: #977d61;
+  text-transform: uppercase;
+}
+.sarto-contact-form label {
+  display: none;
+}
+
+.sarto-contact-form h2.heading {
+  color: #977d61;
+  font-size: 1.7rem;
+  line-height: 1.3em;
+  margin-bottom: 30px;
+}
+
+.sarto-contact-form .form-fields input::placeholder {
+  color: #977d61;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+.sarto-contact-form select {
+  text-transform: uppercase;
+  color: #977d61;
+}
+
+.sarto-contact-form .form-info {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #977d61;
+}
+
+.sarto-contact-form .contact-info__item h4 {
+  text-transform: uppercase;
+  color: #977d61;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.sarto-contact-form .contact-info {
+  margin-top: 10vh;
+}
+
+.sarto-contact-form .contact-info__item {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.sarto-contact-form .contact-info__item .content {
+  flex: 1;
+}
+
+.sarto-contact-form .contact-info__item .title {
+  max-width: 230px;
+  width: 100%;
+}
+
+.sarto-contact-form .contact-info__item a {
+  text-decoration: underline;
+}
+
+.page-about h2 {
+  font-weight: 900;
+  color: #977d61;
+  font-size: 6rem;
+  margin-bottom: 20px;
+}
+
+.world-of-sarto .m-image-with-text__content {
+    background: #f9f4f0;
+}
+
+.world-of-sarto .m-content-box.m-richtext {
+    height: 100%;
+    position: relative;
+    padding: 40px 0;
+}
+
+
+.world-of-sarto h3.m-richtext__title.m-content-box__heading.h2 {
+    color: #977d61;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.sarto-dor h2.m-richtext__title {
+    color: #977d61;
+    font-weight: 400;
+    font-size: 4.1rem;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.sarto-dor p.m-richtext__subtitle {
+    text-transform: uppercase;
+    color: #977d61;
+    font-weight: 400;
+}
+
+.about-sliding .m-promotion__item:nth-child(1) img {
+    height: 320px;
+}
+
+.about-sliding .m-promotion__item:nth-child(2) img {
+    height: 280px;
+}
+
+.about-sliding .m-promotion__item:nth-child(3) img {
+    height: 580px;
+}
+
+.about-sliding .m-promotion__item:nth-child(4) img {
+    height: 410px;
+}
+
+.about-sliding .m-promotion__item:nth-child(5) img {
+    height: 520px;
+}
+
+.about-sliding .m-promotion.m-promotion--animated {
+    align-items: baseline;
+}
+
+.world-of-sarto .m-richtext__description.rte.m-content-box__description.h6 {
+    text-align: center;
+    color: #977D61;
+    font-size: 1.2rem;
+}
+
+.sarto-vip p.m-richtext__subtitle {
+    color: #977d61;
+    font-size: 1.5rem;
+}
+
+.sarto-vip .m-richtext__description {
+    font-size: 1.1rem;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.vip-experience h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #977d61;
+    text-transform: uppercase;
+    margin-bottom: 30px
+}
+
+.vip-experience p {
+    color: #000;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.vip-experience .services h4 {
+    color: #977d61;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 1.4em;
+}
+
+.vip-experience .services ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.vip-experience .services ul li {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #977d61;
+}
+
+.vip-experience .action a {
+    background: #977d61;
+    padding: 15px 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.vip-experience .action {
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+}
+
+.vip-experience .services {
+    margin-bottom: 60px;
+    display: block;
+    margin-top: 60px;
+}
+
+.page-about.sarto-vip h2 {
+    color: #977d61;
+}
+
+.vip-room .m-image-card__heading-group h3 {
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.vip-room a.m-richtext__button.m-button.m-button--link {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+a.m-richtext__button.m-button.m-button--link {}
+
+.vip-room .m-richtext__description {
+    font-size: 1.4rem;
+}
+
+.sarto-blog-sidebar .m-article-card.m-article-card--view- {
+    margin-bottom: 40px;
+}
+
+.bg-primary {
+  background-color: #f9f4f0;
+}
+.bg-primary .m-gradient.m-color-default {
+    background: transparent;
+}
+
+.rewards .logo {
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+.rewards h3.m-richtext__title.h2 {
+    font-weight: 900;
+    color: #977d61;
+    font-size: 3.2rem;
+    margin-bottom: 40px;
+}
+
+.rewards .m-richtext__description {
+    font-size: 1.2rem;
+    max-width: 750px;
+    margin: 0 auto;
+    color: #977d61;
+}
+
+.rewards .desc .m-richtext__description {
+    color: #000;
+    font-size: 1rem;
+}
+
+.rewards .m-custom-content__block-html .m-custom-content__block-inner {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.rewards .m-custom-content__block-html .m-custom-content__block-inner p {
+    color: #000;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.rewards .m-custom-content__block-html .m-custom-content__block-inner a {
+    background: #977D61;
+    padding: 10px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    max-width: 180px;
+}
+
+.section-title h2.m-richtext__title {
+    text-transform: uppercase;
+    color: #977d61;
+    font-size: 2.1rem;
+}
+.how-it-works p.m-richtext__subtitle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.how-it-works h3.m-richtext__title.h2 {
+    font-size: 2.1rem;
+    text-align: center;
+    color: #000;
+}
+
+.how-it-works .m-richtext__description {
+    text-align: center;
+    color: #000;
+    font-size: 1rem;
+}
+
+.how-it-works .m-custom-content__block {
+    max-width: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.how-it-works .m-custom-content__block:not(:first-child):before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: -10%;
+    background: #977D61;
+    top: 0;
+}
+
+.join-sarto .joining-sarto {
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.join-sarto .joining-sarto a {
+    min-width: 180px;
+    display: inline-block;
+    padding: 8px 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.join-sarto .joining-sarto a.create {
+    background: #977d61;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.join-sarto .joining-sarto a.login {
+    color: #977d61;
+    border: 1px solid #977d61;
+}
+
+.join-sarto .m-richtext__description {
+    margin-top: 24px;
+    color: #000;
+    font-size: 1rem;
+    margin-bottom: -15px;
+}
+
+.rewards-abs {
+    position: absolute;
+    left: 0;
+    top: -66px;
+}
+
+.join-sarto .m-custom-content__wrapper {
+    position: relative;
+}
+
+.rewards-abs h3.m-richtext__title.h2 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    background: #977d61;
+    max-width: 350px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 30px 30px 0 0;
+}
+
+.tier.section-title h2.m-richtext__title {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.tier .m-richtext__description {
+    color: #000;
+}
+.possibilites.section-title h2.m-richtext__title {
+    font-size: 2.1rem;
+}
+
+.possibilites .m-richtext__description {
+    max-width: 480px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.rewards-tier .m-custom-content__block-inner {
+  border: 1px solid #977D61;
+  padding: 30px;
+  border-radius: 7px;
+  height: 40vh;
+  transition: all 0.3s ease;
+  max-width: 450px;
+}
+
+.rewards-tier .m-custom-content__block:hover .m-custom-content__block-inner {
+    background-color: #f9f4f0;
+    box-shadow: 0px 4px 10px 0px #00000040;
+
+}
+
+.rewards-tier h3.m-richtext__title.h2 {
+    font-size: 1.8rem;
+    color: #977d61;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.rewards-tier .m-richtext__description {
+    margin-top: 5px;
+    color: #000;
+    font-size: 1rem;
+}
+
+.possibilities-banner h3.m-richtext__title.m-content-box__heading.h2 {
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+.possibilities-banner .m-richtext__description.rte.m-content-box__description.h6 {
+    font-size: 1.2rem;
+    color: #000;
+}
+.rewards-faq h3.m-richtext__title.h2 {
+    font-weight: 900;
+    font-style: italic;
+    color: #977d61;
+    font-size: 2.1rem;
+}
+.rewards-product h2.m-section__heading.h3 {
+    color: #977d61;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+.sarto-page-header {
+    display: flex;
+    align-items: center;
+}
+
+.sarto-page-header h1.m-page-header__title {
+    color: #977d61;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.sarto-page-header  .blog-title {
+    max-width: 300px;
+    width: 100%;
+}
+
+.sarto-page-header  .blog-tags {
+    flex: 1;
+}
+
+.sarto-page-header  .m-link-lists .m-link {
+    font-size: 1.3rem;
+    color: #000;
+}
+
+.sarto-page-header  .m-link-lists .m-link:hover {
+    color: #977d61;
+}
+
+.sarto-page-header  .m-link-lists--inline {
+    justify-content: flex-start;
+    gap: 100px;
+}  
+
+.sarto-magazine .m-page-header.m-page-header--template-blog {
+    display: none;
+}
+
+.sarto-blog-sidebar:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #977d61;
+    left: 0px;
+}
+
+.giftp-title h2.m-richtext__title.h2 {
+    color: #977d61;
+    font-size: 2.9rem;
+    font-weight: 400;
+}
+
+.giftp-title .m-richtext__description {
+    font-size: 1rem;
+    color: #000;
+    max-width: 510px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.gifts-slider .m-slide__content h2.m-richtext__title.m-slide__title {
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.gifts-slider span.m-dot.m-dot--active::before {
+    background: #977D61;
+    opacity: 1;
+    border: 0;
+    width: 12px;
+    height: 12px;
+}
+
+.gifts-slider span.m-dot.m-dot--active::after {
+    width: 12px;
+    height: 12px;
+    border: 0;
+}
+
+
+.gifts-slider .m-dot-circle .m-dot::before {
+    background: none;
+}
+
+.gifts-slider .m-dot-circle .m-dot::after {
+    border: 1px solid #977d61;
+    width: 12px;
+    height: 12px;
+}
+
+.gifts-slider .m-slider-controls--absolute .swiper-pagination {
+    left: 53px !important;
+    bottom: 0 !important;
+}
+
+.gifts-slider .m-slide__wrapper.container.m-slide-animate--fade-in-up {
+    padding-left: 0;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.gifts-slider a.m-slide__button-first.m-button {
+    background: #977d61;
+    border: 0;
+    border-radius: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1rem;
+    min-width: 180px;
+}
+
+
+
+
+
+ul.gifts-menus.links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+ul.gifts-menus.links a {
+    color: #977D61;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.gifts-cards h3.m-richtext__title.m-image-card__heading.h2 {
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.gifts-cards a.m-richtext__button.m-button.m-button--primary {
+    background: #977d61;
+    border: 0;
+    border-radius: 0;
+    min-width: 180px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.gift-card h3.m-richtext__title.h2 {
+    font-weight: 900;
+    color: #977d61;
+}
+
+.gift-card .m-richtext__description {
+    font-size: 1.2rem;
+    color: #977d61;
+    font-weight: 400;
+}
+
+.btn-sarto a.m-button {
+    background: #977d61;
+    border: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    min-width: 180px;
+}
+
+.gift-card a.m-button {
+    background: #977d61;
+    border: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    min-width: 180px;
+    margin-top: 50px
+}
+
+span.m-article-card__date {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.m-article-card__content {
+    position: relative;
+}
+
+.sarto .m-related-posts__heading, .selected-outfits h2.m-section__heading {
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #000;
+}
+.sarto .m-related-posts {
+  margin-top: 30px;
+}
+
+.selected-outfits span.m-price-item.m-price-item--regular {
+    color: #977d61;
+}
+
+.sarto span.m-article-card__tags, .sarto time {
+    color: #828282;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+
+.sarto h3.m-article-card__title {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.m-article-navigation {
+    display: none !important;
+}
+
+.m-section.m-featured-collection-section.selected-outfits {
+    border-top: 1px solid #977d61;
+}
+
+.m-article__wrapper a.m-article__blog {
+    color: #977d61;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.m-article__wrapper h1.m-article__title {
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+
+.m-article__wrapper .m-article__meta {
+    font-size: 1.1rem;
+    color: #000;
+}
+.m-article {
+  padding-bottom: 60px;
+}
+
+.m-header__center {
+  justify-content: flex-end !important;
+}
+
+.m-header__menu a.m-menu__link.m-menu__link--main {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #110904;
+    font-size: 1rem;
+}
+
+ul.sarto-top-menu {
+  display: flex;
+  justify-content: flex-start;
+}
+
+ul.sarto-top-menu li {
+  margin-right: 20px;
+}
+ul.sarto-top-menu a.m-link {
+  text-transform: uppercase;
+  color: #977d61;
+  font-size: 1rem;
+}
+ul.sarto-top-menu a.m-link:hover{
+  color: #977d61;
+}
+
+.sarto-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sarto-items .m-cart-icon-bubble {
+  margin-right: 0 !important;
+}
+.sarto-items .vip {
+  margin-right: 20px;
+  text-transform: uppercase;
+  color: #977d61;
+  font-size: 1rem;
+}
+.m-topbar.m-topbar--show-divider.m-gradient.m-color-default {
+  background: #f9f4f0;
+}
+
+.sarto-items svg.m-svg-icon--medium {fill: #977D61;}
+
+.sarto-items span.m-cart-count-bubble.m-cart-count {
+    background: transparent;
+    color: #977d61;
+    top: 13px;
+    right: -12px;
+    font-size: 1rem;
+}
+
+.sarto-items span.m-cart-count-bubble.m-cart-count:before {
+    content: '(';
+    position: absolute;
+    top: -2px;
+    left: -0px;
+    font-size: 1rem;
+}
+.sarto-items span.m-cart-count-bubble.m-cart-count:after {
+    content: ')';
+    position: absolute;
+    top: -2px;
+    right: 0px;
+    font-size: 1rem;
+}
+
+.sarto-top-menu .m-link-lists--item:hover .m-link:after {
+  bottom: 0;
+}
+.sarto-top-menu .m-menu__link--main:after {
+  bottom: 0;
+}
+
+.promotion .m-richtext__description p {
+    font-weight: 500;
+}
+
+.promotion .m-richtext__description p strong {
+    font-weight: 700;
+}
+
+span.m-price-item.m-price-item--regular {
+    font-weight: 500;
+    color: #977d61;
+    font-size: 1rem;
+}
+
+a.m-product-card__name {
+    font-weight: 400;
+    color: #000;
+}
+
+.m-featured-collection__button a.m-button.m-button--primary {
+    font-weight: 400;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    color: #110904;
+    position: relative;
+    padding: 0;
+}
+
+.m-featured-collection__button a.m-button.m-button--primary:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #110904;
+    left: 0;
+    bottom: 0;
+}
+
+.m-featured-collection__button a.m-button.m-button--primary:hover {
+    box-shadow: none;
+    border: none;
+}
+
+.m-header__right button.m-search-form__button:before {
+    content: 'Search';
+    left: -113px;
+    position: absolute;
+    bottom: 10px;
+    width: 150px;
+    border-bottom: 1px solid;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.m-header__right button.m-search-form__button {
+    position: relative;
+}
+
+.m-blog__list.sarto-magazine .m-article-card__tags {
+    color: #828282;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.m-blog__list.sarto-magazine .m-article-card__date {
+    font-size: 1.1rem;
+    color: #828282;
+    font-weight: 400;
+    text-transform: unset;
+}
+.sarto-blog-sidebar .m-article-card__tags {
+    color: #828282;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.sarto-blog-sidebar .m-article-card__date {
+    font-size: 1rem;
+    color: #828282;
+    font-weight: 400;
+    text-transform: unset;
+}
+.m-blog__list.sarto-magazine h3.m-article-card__title {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.sarto-blog-sidebar h3.m-article-card__title {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.m-blog__list.sarto-magazine .m-article-card__excerpt, .sarto-blog-sidebar .m-article-card__excerpt{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.related-articles span.m-article-card__date {
+   position: absolute;
+   bottom: -50px;
+   left: 0;
+   text-transform: unset;
+   top: unset;
+}
+
+.related-articles a.m-article-card__readmore.m-button.m-button--link {
+    display: none;
+}
+
+.rewards input.sarto-const {
+    appearance: none;
+    position: relative;
+}
+
+.rewards input[type='checkbox']:before {
+    color: #977d61;
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 18px;
+    border: 1px solid;
+    bottom: -4px;
+    left: -30px;
+}
+
+.rewards input[type=checkbox]:checked:after {
+ content: "";
+ display: block;
+ width: 5px;
+ height: 10px;
+ border: solid black;
+ border-width: 0 2px 2px 0;
+ -webkit-transform: rotate(45deg);
+ -ms-transform: rotate(45deg);
+ transform: rotate(45deg);
+ position: absolute;
+ bottom: 1px;
+ left: -24px;
+}
+
+.tier .m-richtext__description, .possibilites .m-richtext__description{
+    font-size: 1.2rem;
+}
+
+.rewards-product .m-featured-collection__button a.m-button.m-button--link {
+    font-weight: 400;
+}
+
+.sarto-account h1.m-page-header__title, h1.m-page-header__title {
+  text-align: left;
+  font-size: 1.1rem;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.m-breadcrumb--wrapper {
+    justify-content: flex-start;
+}
+
+.sarto-account .m-breadcrumb--wrapper {
+    display: none;
+}
+
+.template-account .m-page-header.m-page-header--template-account {
+    padding-bottom: 20px;
+}
+
+.sarto-account .user-info h2.name {
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: #977d61;
+    margin-right: 20px;
+}
+
+.sarto-account .user-info {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.m-account__content .m-button--primary {
+    background: #977D61;
+    border: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.m-customer__action .m-button--secondary {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.m-collection-page-header__wrapper h1.m-collection-page-header__title {
+    color: #977d61;
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+
+.more-to-explore a.m-richtext__button.m-button.m-button--primary {
+    background: #977d61;
+    border: 0;
+    border-radius: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.more-to-explore h3.m-richtext__title.m-image-card__heading {
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+.explorec-title h2 {
+  font-size: 1rem;
+  color: #000;
+}
+
+.sarto-brand-header {
+  align-items: center;
+  margin: 30px 0;
+}
+
+.sarto-brand-header a.button-primary {
+    background: #977d61;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 25px;
+}
+
+.sarto-brand-header .brand-info {
+    margin-bottom: 30px;
+}
+
+.sarto-brand-header .brand-info h1 {
+    color: #110904;
+}
+
+.sarto-brand-header .brand-info p {
+    font-size: 1rem;
+    color: #110904;
+}
+
+.what-to-wear .wtw-products:hover .products-image img {
+    transform: scale(1.2);
+}
+
+.what-to-wear .wtw-products .products-image img {
+    transition: all 0.3s ease-in-out;
+}
+
+.what-to-wear .wtw-products .products-image {
+    overflow: hidden;
+}
+
+.m-footer--block-inner p.terms a {
+    font-size: 0.9rem;
+}
+
+.m-mega-menu__content responsive-image.m-image {
+    max-height: 60vh;
+}
+
+.m-mega-menu__content .m-collection-card__info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 90%;
+}
+
+.m-mega-collection-list .m-collection-card:hover h3.m-collection-card__title a {
+    color: #977d61 !important;
+}
+.m-mega-menu__inner .m-mega-menu__column a.m-menu__link:hover {
+    background: #977d61;
+    color: #fff;
+}
+
+.m-mega-menu__inner .m-mega-menu__column a.m-menu__link {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.m-mega-menu__content a.m-collection-card__link.m {
+    width: 100%;
+    border: 1px solid #977d61 !important;
+    display: block;
+}
+
+.m-mega-collection-list .m-collection-card__link {
+    border: 1px solid #fff;
+}
+.m-mega-collection-list .m-collection-card:hover .m-collection-card__link {
+    border-color: #977d61;
+}
+
+.m-mega-menu__content a.m-collection-card__link {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff !important;
+    font-weight: 400;
+    padding: 10px 25px;
+}
+
+.m-mega-menu__content a.m-collection-card__link sup {
+    display: none;
+}
+
+.more-to-explore a.m-richtext__button.m-button.m-button--primary:hover {
+    background: #fff;
+    color: #977d61;
+}
+
+.m-product-media--slider .swiper-slide.m-product-media--item .m-image {
+    height: 70vh !important;
+}
+
+.m-product-media--slider .swiper-wrapper {
+    height: 70vh !important;
+}
+a.m-richtext__button.m-button.m-button--secondary {
+    box-shadow: none;
+}
+
+collapsible-tab.m-collapsible h3.m-collapsible--button {
+    transition: all 0.3s ease;
+}
+collapsible-tab.m-collapsible.is-expanded h3.m-collapsible--button {
+    border: 0;
+}
+
+collapsible-tab.m-collapsible.is-expanded .m-collapsible--content {
+    opacity: 1;
+}
+
+collapsible-tab.m-collapsible .m-collapsible--content {
+    border-bottom: 1px solid #977d61;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.vip-room picture.m-media__wrapper:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #0000005e, transparent);
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.vip-room picture.m-media__wrapper {
+    position: relative;
+}
+
+
+
+.world-of-sarto .content h3.m-richtext__title.h2 {
+    color: #977d61;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.world-of-sarto .content .m-richtext__description.h6 {
+    text-align: center;
+    color: #977d61;
+    font-size: 1.2rem;
+}
+
+.world-of-sarto .m-custom-content__block-inner {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.world-of-sarto .m-richtext.m-.m-custom-content__block-inner .m-richtext--medium {
+    position: relative;
+    height: 100%;
+}
+
+.world-of-sarto .content .m-richtext.m-richtext--medium {
+    position: relative;
+    height: 100%;
+    padding: 40px;
+}
+
+
+
+/*elgun feedback*/
+
+.template-product .m-product-media--zoom-icon {
+    right: unset;
+    left: 20px;
+}
+.template-product .main-product__block .m-product-wishlist {
+    left: -110px;
+    right: unset;
+    top: 10px;
+}
+
+.template-product .main-product__block .m-product-wishlist button {
+    background: transparent;
+    border: none !important;
+    color: #977D61;
+}
+
+.template-product .main-product__block  button.m-tooltip.m-button--icon.m-wishlist-button.added-to-wishlist {
+    background: #fff !important;
+}
+
+/*product slider css */
+.template-product .m-product-media--slider .nav-swiper-container .swiper-slide-thumb-active .m-product-media {
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background: #000 !important;
+    border: 1px solid #000 !important;
+}
+
+.template-product .m-product-media--slider .nav-swiper-container .m-product-media {
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    border: 1px solid  !important;!i;!;
+}
+
+.template-product .swiper-slide.media-type-image.swiper-slide-visible {
+    height: 20px !important; 
+}
+
+.template-product .m-product-media--slider__thumbnails {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    top: unset;
+    right: unset;
+}
+
+.template-product .m-product-media--layout-6 .m-product-media--slider {
+    flex-direction: unset;
+    position: relative;
+}
+
+.template-product .m-product-media--layout-6 .m-product-media--slider__images {
+    width: 100%;
+}
+
+.template-product .swiper-container-vertical>.swiper-wrapper {
+  justify-content: end;
+  padding-left: 15px;
+}
+
+.template-product .m-product-media--layout-6 .m-product-media--slider__thumbnails .swiper-slide {
+  height: 20px !important;
+}
+
+.template-product .nav-swiper-container .swiper-wrapper .swiper-slide.media-type-image {
+    height: 20px !important;
+}
+
+.template-product .nav-swiper-container .swiper-wrapper .swiper-slide.media-type-image:last-child {
+    margin-bottom: 15px !important;
+}
+
+/*SARTO BRAND LIST STYLE*/
+
+.sarto-product-brands ul.alphabet-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.sarto-product-brands ul.alphabet-list li {
+  flex: 50px 0 0;
+  margin-bottom: 15px;
+}
+
+.sarto-product-brands h2.collection-name:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: black;
+  left: 0;
+  bottom: -10px;
+}
+
+.sarto-product-brands h2.collection-name {
+  position: relative;
+  margin-bottom: 25px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.sarto-product-brands ul.collection-list__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.sarto-product-brands ul.collection-list__wrapper li {
+  flex: 32% 1 0;
+}
+
+.sarto-product-brands li.collection-list__item a {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 1.3em;
+}
+
+.sarto-product-brands .collection-list .collection-list__content:not(:first-child) {
+  padding-top: 50px;
+}
+
+/*product slider end*/
+
+/*ELGUN SECOND FEEDBACK*/
+
+.six-investment {
+    background: #F9F4F0;
+    padding: 25px 0;
+}
+
+.six-investment .m-image-with-text__content {
+    align-items: end;
+    padding-bottom: 40px;
+}
+
+.six-investment h3.m-richtext__title.m-content-box__heading.h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.9rem;
+}
+
+.six-investment .m-richtext__description.rte.m-content-box__description.h6 {
+    font-size: 1.1rem;
+    color: #000;
+}
+
+.six-investment .m-richtext__button {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.m-product-media--slider .swiper-button-control svg {
+  color: #977D61;
+}
+
+.m-product-media--slider .swiper-button-control {
+  background: #fff !important;
+}
+
+/* Modal */
+.modal.sarto {
+  position: fixed; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: flex-start; /* or center */
+  z-index: 1000; /* depending on what z-index values exist in your page, in order for the modal layer to sit on top of other content */
+  overflow: auto; /* enable scrolling if needed - although this is not really necessary since we are going take care of overflow in modal-content */
+  background-color: rgba(0,0,0,0.8);
+}
+.modal.sarto.modal-show {
+  animation: fadeIn 0.1s ease-in-out forwards;
+}
+.modal.sarto.modal-hide {
+  animation: fadeOut 0.1s ease-in-out 0.1s forwards;
+}
+.sarto .modal-content {
+  position: relative;
+  background-color: #fff;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 0.25rem;
+  width: 50%;
+  max-height: 75%;
+  overflow: auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+.modal.sarto.modal-show .modal-content {
+  animation: fadeInDown 0.3s ease-in-out forwards;
+}
+.modal.sarto.modal-hide .modal-content {
+  animation: fadeOutUp 0.2s ease-in-out forwards;
+}
+.sarto .modal-content h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.sarto .modal-content p {
+  margin: 1rem 0;
+  line-height: 1.5rem;
+}
+.sarto .modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 0 0.75rem;
+  /* width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: rgba(0,0,0,0.2);
+  cursor: pointer;
+  user-select: none;
+}
+.sarto .modal-close:hover, .sarto .modal-close:focus {
+  color: rgba(0,0,0,0.5);
+}
+
+.sarto .modal-content img {
+    display: block;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main-product__block.main-product__block-custom_liquid .size-guide {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: right;
+}
+
+.main-product__block.main-product__block-custom_liquid .size-guide.no_variant{
+  top: -45px;
+}
+
+.main-product__block.main-product__block-custom_liquid .size-guide button {
+    text-decoration: underline;
+    color: #000;
+    font-size: 1rem;
+}
+
+.main-product__block.main-product__block-custom_liquid .m-product-text {
+    position: relative;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+@keyframes fadeOutUp {
+  0% { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+}
+
+@media(max-width: 992px) {
+  html { font-size: 14px; }
+  .sarto .modal-content { width: 80%; }
+}
+@media(max-width:767px) {
+  html { font-size: 12px; }
+  .sarto .modal-content { padding: 2rem 1rem 1rem 1rem; width: 90%; }
+  .sarto .modal-content h1 { margin-bottom: 1.5rem; }
+}
+
+.sarto .m-menu-customer__label {
+    display: none;
+}
+
+.sarto .m-menu-customer {
+    margin-top: 0;
+}
+
+.sarto .m-menu-drawer__content{
+  justify-content: flex-start;
+}
+
+ul.m-menu-drawer__navigation.m-menu-mobile.sarto-mobile-menu:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: #977D61;
+    left: 17px;
+    top: -17px;
+}
+
+ul.m-menu-drawer__navigation.m-menu-mobile.sarto-mobile-menu {
+    position: relative;
+    margin-top: 30px;
+}
+
+ul.m-menu-drawer__navigation.m-menu-mobile.sarto-mobile-menu a.m-menu-mobile__link {
+    text-transform: uppercase;
+    color: #977d61;
+}
+
+.sarto .m-button--primary {
+    background: transparent;
+    border-radius: 0;
+    border-color: #977d61;
+    color: #977d61;
+    font-weight: 400;
+}
+
+.sarto .m-menu-customer__wrapper {
+    margin-bottom: 0;
+}
+
+/*ONLY LARGE DESKTOP*/
+
+@media screen and (min-width: 980px) {
+  .m-collection--wrapper.m-sidebar--top {
+    margin-top: 0;
+  }
+  .m-collection-top-filter.m-sidebar--leftColumn.desktop .m-sidebar {
+    flex: 1;
+  }
+  .m-collection-top-filter.desktop {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 81;
+  }
+  .m-sidebar.mobile {
+    display: none;
+  }
+  .m-collection-top-filter collection-tags-filters {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+  .m-collection-toolbar.top {
+    z-index: 80;
+    position: relative;
+  }
+  .m-collection-toolbar.top .m-collection-toolbar--wrapper {
+    align-items: flex-start !important;
+  }
+  
+  .m-collection-toolbar.top .m-toolbar--right {
+    justify-content: flex-end;
+  }
+  .m-filter--widget-title{
+    font-weight: 400 !important;
+    color: #110904;
+  }
+  .m-collection-top-filter .m-filter--widget-content.m-accordion--item-content.max-height-set {
+    background: #fff;
+    z-index: 9999999999;
+    top: 35px;
+    border-radius: 5px;
+    color: rgba(var(--color-foreground), 0.75);
+    line-height: 32px;
+    padding: 10px 20px;
+    position: absolute;
+    transform: translateZ(0);
+    transition: all var(--m-duration-default, 0.25s) ease-in-out;
+    width: min-content;
+  }
+  .m-collection-top-filter .open .m-filter--widget-content.m-accordion--item-content.max-height-set{
+    box-shadow: 0 20px 30px rgba(var(--color-foreground), 0.12);
+  }
+  .m-collection-top-filter collection-tags-filters div {
+    width: 110px;
+  }
+
+  .m-collection-top-filter .m-filter--wrapper {
+    padding: 0;
+  }
+  
+  .m-product-media--slider .swiper-slide.m-product-media--item .m-image {
+    height: 65vh !important;
+  }
+  
+  .m-product-media--slider .swiper-wrapper {
+      height: 65vh !important;
+  }
+  .lg-d-none {
+    display: none;
+  }
+  .m-header header {
+    padding: 10px 0;
+  }
+  .sarto-brand-header a.button-primary:not(:last-child) {
+    margin-right: 20px;
+  }
+  .sarto-brand-header .brand-info h1 {
+    margin-bottom: 30px;
+    font-size: 4.1rem;
+  }
+  .sarto-brand-header a.button-primary {
+    display: inline-block;
+    min-width: 180px;
+  }
+  .blog-tags.desktop li.m-link-lists--item.current a {
+    color: #977d61;
+    font-weight: 500;
+    text-decoration: none;
+    border: 0;
+  }
+}
+{% comment %}
+ only small desktop device
+{% endcomment %}
+@media screen and (min-width: 980px) and (max-width: 1620px) {
+   .page-about h2{
+    font-size: 4.5rem;
+  }
+  .vip-room .m-image-card__heading-group h3 {
+    font-size: 3.5rem;
+  }
+  .vip-room .m-richtext__description{
+    margin-top: 15px;
+  }
+  .how-it-works .m-custom-content__block{
+    max-width: 370px;
+  }
+  .vip-experience .services {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .vip-experience .services ul {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .m-header__right{
+     margin-left: 120px;
+   }
+}
+{% comment %}
+ large desktop all
+{% endcomment %}
+
+@media (width >= 980px){
+  .m-header__right a.m-cart-icon-bubble {
+    display: none;
+  }
+  .container-fluid.sarto-product-brands {
+    display: grid;
+    grid-template-columns: minmax(210px, 20%) 3fr;
+    gap: 20px;
+  }
+  .m-collection--wrapper.m-sidebar--Top {
+    margin-top: 0;
+  }
+  .m-sidebar.only_mobile {
+    display: none !important;
+  }
+  .world-of-sarto .content .m-richtext__description.h6 {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+  }
+  .world-of-sarto .content {
+    background: #f9f4f0;
+  }
+  .collection-blogs a.m-article-card__image .m-image {
+    height: 40vh;
+  }
+  .collection-sub-category {
+    grid-template-columns: repeat(auto-fit,minmax(18%,1fr));
+  }
+  .collection-promotions h3.m-richtext__title.h2{
+    font-size: 2.4rem;
+  }
+  .gifts-slider .m-richtext__description {
+    margin-top: 40px;
+  }
+  .gifts-slider .m-richtext__description+.m-richtext__button {
+    margin-top: 60px !important;
+  }
+  .gifts-slider .m-slide__wrapper.container.m-slide-animate--fade-in-up {
+    position: relative;
+    width: 33%;
+  }
+  
+  .gifts-slider .m-slide.m-slide--middle-center.m-slide--text-medium {
+      display: flex;
+      flex-direction: row-reverse;
+  }
+  
+  .gifts-slider .m-slide__media {
+      width: 66%;
+  }
+  .more-to-explore .m-image-card__inner.m-gradient.m-color-default {max-height: 70vh;}
+  .m-blog__list.sarto-magazine {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 30px;
+  }
+
+  .m-blog__list.sarto-magazine .m-article-card:nth-child(3n-2) {
+      grid-column: span 2;
+  }
+  .vip-experience h2 {
+    margin-bottom: 10px;
+  }
+  .vip-ex .m-custom-content__block-inner {
+    display: flex;
+    align-items: center;
+  }
+  .sarto-vip h2.m-richtext__title {
+    font-size: 3.6rem;
+  }
+  .m-footer--bottom {
+    display: none !important;
+  }
+  .m-footer .m-footer--block-content {
+    display: grid;
+  }
+  .m-footer .m-footer--block-content .block-image {
+      order: 2;
+      margin-top: 150px;
+  }
+  .m-footer--block-inner ul.m-footer--block-content {
+    margin-top: 35px;
+  }
+  .m-footer--block-inner ul.m-footer--block-content li:not(:last-child) {
+      margin-bottom: 20px;
+  }
+  ul.m-footer--block-content.m-link-lists {
+    margin-bottom: 15px;
+  }
+  .lemaire .m-richtext.m-image-card__content-inner {
+    max-width: 570px;
+  }
+  .lemaire .m-image-card__heading-group {
+      margin-bottom: 50px;
+      max-width: 350px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+  }
+  .lemaire .m-image-card__heading-group h3 {
+      font-size: 3.5rem;
+  }
+  .lemaire .m-richtext__description {
+      margin-bottom: 50px;
+  }
+  .main-product__block .m-product-title {
+    font-size: 1.4rem !important;
+  }
+  .m-icon-box__inner {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  .sarto-contact-form .basic-fields {
+    max-width: clamp(300px, 40%, 530px);
+    flex: 1 1 auto;
+  }
+  .world-of-sarto .m-richtext__description.rte.m-content-box__description.h6 {
+      position: absolute;
+      bottom: 40px;
+      text-align: center;
+      color: #977D61;
+      font-size: 1.2rem;
+  }
+}
+
+{% comment %}
+ MOBILE and ipad CSS
+{% endcomment %}
+
+@media (width <= 980px){
+  .main-product__block.main-product__block-custom_liquid .size-guide.no_variant{
+    position: relative;
+    right: unset;
+    left:0;
+    top:0;
+    text-align: left;
+  }
+  .m-product-media--slider .swiper-button-control {
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: #fff !important;
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .six-investment h3.m-richtext__title.m-content-box__heading.h2 {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  
+  .six-investment .m-richtext__description.rte.m-content-box__description.h6 {
+      text-align: center;
+      font-size: 0.9rem;
+  }
+  
+  .six-investment .m-richtext__button {
+      text-align: center;
+      font-size: 0.9rem;
+  }
+  .sarto-product-brands li.collection-list__item a{
+    font-size: 1rem;
+  }
+  .container-fluid.sarto-product-brands .alphabet{
+    margin-bottom: 50px;
+  }
+  .world-of-sarto .content h3.m-richtext__title.h2 {
+    font-size: 1.2rem;
+  }
+  .world-of-sarto .content .m-richtext.m-richtext--medium {
+    padding: 15px;
+  }
+  
+  .world-of-sarto .content .m-richtext__description.h6 {
+      margin-top: 70px;
+  }
+  .world-of-sarto.first {
+    margin-top: 60px;
+  }
+  .world-of-sarto .content .m-custom-content__block-inner{
+      background: #f9f4f0;
+      overflow: hidden;
+  }
+  .world-of-sarto .content .m-richtext__description.h6{
+    font-size: 0.9rem;
+  }
+  .world-of-sarto .m-custom-content__block-inner {
+    min-height: 30vh;
+  }
+  .collection-blogs a.m-article-card__image .m-image {
+    height: 220px;
+  }
+  .collection-promotions h3.m-richtext__title.h2 {
+      text-align: center !important;
+   }
+    .collection-promotions .promotion-sidebar {
+      display: none !important;
+  }
+  .m-blog__list.sarto-magazine .m-article-card__tags {
+    font-size: 0.9rem;
+  }
+  
+  .m-blog__list.sarto-magazine .m-article-card__date {
+      font-size: 0.9rem;
+  }
+  .shopify-section.sarto-blog-header section {
+    background-color: #F9F4F0 !important;
+  }  
+ 
+  .m-article__wrapper h1.m-article__title {
+    font-size: 1.6rem;
+    color: #000;
+  }
+  
+  .related-articles .m-article__wrapper .m-article__meta {
+      font-size: 0.9rem;
+      color: #000;
+  }
+  
+  .related-articles .m-article__content {
+      font-size: 0.9rem;
+  }
+  
+  .sarto h3.m-article-card__title {
+      font-size: 1.2rem;
+      color: #000;
+      font-weight: 500;
+  }
+  
+  .sarto span.m-article-card__tags, .sarto time {
+      font-size: 0.9rem;
+  }
+  
+  .sarto .m-related-posts__heading, .selected-outfits h2.m-section__heading {
+      font-size: 1.2rem;
+  }
+  span.m-article-card__date {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: unset;
+    right: unset;
+  }
+  
+  .m-blog__list.sarto-magazine {
+      gap: 60px;
+  }
+  
+  .m-blog__list.sarto-magazine .m-article-card__readmore {
+      visibility: hidden;
+  }
+  
+  .m-blog__list.sarto-magazine h3.m-article-card__title {
+      font-size: 1.2rem;
+  }
+  
+  .sarto-blog-sidebar a.m-article-card__readmore.m-button.m-button--link {
+      visibility: hidden;
+  }
+  
+  .sarto-blog-sidebar .m-article-card__tags {
+      font-size: 0.9rem;
+  }
+  
+  .sarto-blog-sidebar .m-article-card__date {
+      font-size: 0.9rem;
+  }
+  
+  .sarto-blog-sidebar {
+      border-top: 1px solid #977d61;
+      padding-top: 60px;
+  }
+  .sarto-blog-sidebar h3.m-article-card__title {
+    font-size: 1.2rem;
+  }
+  .join-sarto .m-richtext__description {
+    font-size: 0.9rem;
+  }
+  .md-pb-0 .container-fluid.m-section-my.m-section-py {
+    padding-bottom: 0px;
+  }
+
+  .mfont .m-richtext__description {
+    font-size: 0.9rem;
+  }
+
+  .md-pb-hun .container-fluid.m-section-my.m-section-py {
+    padding-top: 80px;
+  }
+
+  .rewards-product h2.m-section__heading.h3 {
+    text-align: left;
+  }
+  .possibilities-banner .container-fluid.m-section-my.m-section-py {
+    padding-bottom: 0;
+  }
+  
+  .tier .m-richtext__description {
+      font-size: 0.9rem;
+  }
+  
+  .possibilites.section-title h2.m-richtext__title {
+      font-size: 1.2rem;
+  }
+  
+  .possibilites .m-richtext__description {
+      font-size: 0.9rem;
+  }
+  
+  .possibilities-banner h3.m-richtext__title.m-content-box__heading.h2 {
+      font-size: 1.2rem;
+  }
+  
+  .possibilities-banner .m-richtext__description.rte.m-content-box__description.h6 {
+      font-size: 0.9rem;
+  }
+
+  .rewards h3.m-richtext__title.h2 {
+      font-size: 2rem;
+  }
+  
+  .rewards .desc .m-richtext__description {
+      font-size: 0.9rem;
+  }
+  
+  .rewards .m-custom-content__block-html .m-custom-content__block-inner p {
+      font-size: 0.9rem;
+      text-align: center;
+      margin-left: 6vw;
+  }
+  
+  .how-it-works h3.m-richtext__title.h2 {
+      font-size: 2rem;
+  }
+  
+  .how-it-works .m-richtext__description {
+      font-size: 0.9rem;
+  }
+  
+  .m-section.how-it-works {
+      padding-bottom: 50px !important;
+  }
+  
+  .join-sarto .joining-sarto {
+      display: flex;
+      margin-top: 20px;
+      max-width: 90%;
+      justify-content: center;
+  }
+  
+  .join-sarto .joining-sarto a {
+      min-width: 50%;
+      margin: 0;
+      font-size: 0.9rem;
+      padding: 7px 15px;
+      width: 100%;
+  }
+  .brand-header-con .m-custom-content__block-image .m-image {
+    min-height: 40vh;
+  }
+  
+  .sarto-brand-header {
+      margin-top: 10px;
+  }
+  .sarto-brand-header .brand-info h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .sarto-brand-header .brand-info p {
+      font-size: 0.9rem;
+  }
+  .brand-header-con .m-custom-content__wrapper {
+    flex-direction: column-reverse;
+  }
+  .gift-card .m-custom-content__block-text {
+    margin-top: 30px;
+  }
+  .container-fluid.page .what-to-wear h2 {
+    font-size: 2rem;
+  }
+  .gifts-slider .m-slide__content h2.m-richtext__title.m-slide__title {
+    font-size: 2rem;
+  }
+  .gifts-slider .m-slide__content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .m-blog__list.sarto-magazine {
+    grid-template-columns: 1fr;
+  }
+  ul.gifts-menus.links {
+    flex-wrap: wrap;
+    gap: 0px 30px;
+  }
+  .collection-m ul.gifts-menus.links {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0px 30px;
+  }
+  .md-d-none {
+    display: none;
+  }
+  .sarto-contact-form .message-fields {
+    margin-top: 20px;
+  }
+  .vip-room .m-image-card__content {
+    padding-bottom: 30px !important;
+  }
+  .vip-room .m-richtext__description {
+      font-size: 0.9rem;
+  }
+  
+  .vip-room .m-image-card__heading-group h3 {
+      font-size: 1.8rem;
+  }
+  
+  .vip-room a.m-richtext__button.m-button.m-button--link {
+      font-size: 0.9rem;
+  }
+  .sarto-vip p.m-richtext__subtitle {
+      font-size: 1.2rem;
+      margin-bottom: 25px;
+  }
+  
+  .sarto-vip .m-richtext__description {
+      font-size: 0.9rem;
+  }
+  
+  .vip-experience {
+      text-align: center;
+      padding-top: 30px;
+  }
+  
+  .vip-experience h2 {
+      font-size: 1.2rem;
+  }
+  
+  .vip-experience p {font-size: 0.9rem;}
+  
+  .vip-experience .services h4 {
+      font-size: 1.2rem;
+  }
+  
+  .vip-experience .services {margin-top: 10px;margin-bottom: 0px;}
+  
+  .vip-experience .action {
+      display: none;
+  }
+  
+  .vip-experience .services ul {
+      margin-bottom: 0px;
+  }
+  .world-of-sarto .m-image-with-text__content{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 94%;
+    display: block;
+  }
+  .world-of-sarto .m-image-with-text__inner{
+    flex-direction: column-reverse;
+  }
+  .world-of-sarto h3.m-richtext__title.m-content-box__heading.h2 {
+    margin-bottom: 5rem;
+    font-size: 1.2rem
+  }
+  .world-of-sarto .m-richtext__description.rte.m-content-box__description.h6 {
+      font-size: 0.9rem;
+  }
+  .md-d-none {
+    display: none !important;
+  }
+  .m-footer--bottom.m-footer--bottom-footer-1 {
+    padding-top: 30px;
+    text-align: center !important;
+    display: block;
+  }
+  span.m-footer__copyright {
+      text-align: center;
+      display: block;
+  }
+  .m-footer--bottom-left {
+      margin-bottom: 0 !important;
+  }
+  .m-footer--block.m-footer--block-newsletter.open {
+    min-height: 400px;
+  }
+  .m-footer--block-inner p.terms {
+    bottom: -95px;
+    text-transform: capitalize;
+  }
+    header.m-header__mobile {
+      background: #977D61;
+      color: #fff  !important;
+      padding: 10px;
+  }
+  .m-hamburger-box__inner {
+    background: #fff !important;
+  }
+  
+  .m-hamburger-box__inner:after, .m-hamburger-box__inner:before {
+      background: #fff !important;
+  }
+  .m-logo [style*='--aspect-ratio'] > *:first-child {
+    object-fit: contain !important;
+  }
+  .m-footer button.m-newsletter-form__button.m-newsletter-form__button--text.m-button.m-button--primary {
+    background: #977d61;
+    color: #fff;
+    padding: 0px 15px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+  }
+  .m-footer--block-newsletter .m-newsletter-form--bordered .m-newsletter-form__input {background-color: #fff !important;border: none;}
+  .m-newsletter-form__input-wrapper {
+    max-width: 65%;
+    background-color: #fff !important;
+  }
+  .m-newsletter-form__wrapper {
+    justify-content: flex-start !important;
+  }
+  .hero-top .maxfive .m-custom-content__block-inner.m\:w-full {
+    max-width: 170px;
+  }
+  .features-title .m-richtext__description {
+    font-size: 0.85rem;
+  }
+  .what-to-wear {
+    display: block;
+  }
+  .what-to-wear .features-image {
+    height: 40vh;
+  }
+  .what-to-wear .features-content {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .what-to-wear *{
+    margin-bottom: 1.3rem;
+  }
+  .what-to-wear {
+    display: block;
+  }
+
+  .what-to-wear .sub-heading {
+      font-size: 0.9rem;
+  }
+
+  .what-to-wear h2 {
+      font-size: 1.7rem;
+      line-height: 2rem;
+  }
+
+  .what-to-wear p.desription {
+      font-size: 0.9rem;
+  }
+
+  .what-to-wear a.expert-link {
+      display: none;
+  }
+  .what-to-wear .features-products {
+    grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+    margin-top: 40px;
+  }
+
+  .what-to-wear .features-products .products-image {
+      height: 210px;
+  }
+
+  .what-to-wear .products-info {
+      text-align: left;
+  }
+  .what-to-wear .features-products .products-description p {
+    font-size: 0.9rem;
+  }
+  .winter-essentials p.m-richtext__subtitle {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+
+  .winter-essentials h3.m-richtext__title {
+      margin-bottom: 20px;
+      font-size: 1.7rem;
+  }
+
+  .winter-essentials a.m-button.m-button--secondary {
+      border-radius: 0 !important;
+  }
+
+
+  .winter-essentials .m-richtext__description.rte.m-content-box__description.h6 {
+      margin-bottom: 0;
+  }
+
+  .winter-essentials .m-richtext__description.rte.m-content-box__description.h6 {
+      font-size: 0.9rem;
+  }
+  .collection-beuty {
+    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+  }
+
+  .collection-beuty .content {
+      text-align: left ;
+  }
+
+  .collection-beuty .content h2 {
+      text-align: left;
+      font-size: 1rem;
+  }
+
+  .collection-beuty .description {
+      text-align: left !important;
+      font-size: 0.9rem;
+  }
+  .collection-blogs h2.m-section__heading {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .lemaire .m-image-card {
+    height: 50vh;
+  }
+
+  a.m-richtext__button.m-button.m-button--primary {
+      border-radius: 0;
+      padding: 9px 40px;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+  }
+
+  .lemaire .m-richtext__description {
+      font-size: 0.9rem;
+      line-height: 1.5rem;
+  }
+
+  .lemaire .m-image-card__heading-group h3 {
+      font-size: 2.4rem;
+      font-weight: 500;
+  }
+  .footer-top .m-icon-box-section__wrapper h3.m-icon-box__heading.h4 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .footer-top .m-icon-box-section__wrapper .m-icon-box__description {
+    text-align: center;
+  }
+
+  .footer-top .m-icon-box-section__wrapper .m-icon-box--vertical .m-icon-box__content {
+    width: 100% !important;
+  }
+
+  .footer-top  .m\:flex-1 {
+    flex: unset !important;
+  }
+  .footer-top .m\:text-left {
+    text-align: center !important;
+  }
+  .collection-blogs .m-mixed-layout--mobile-scroll .m-mixed-layout__inner>* {
+    max-width: 45vw;
+  }
+  .collection-blogs span.m-article-card__tags {font-size: 0.7rem !important;}
+
+  .collection-blogs h3.m-article-card__title {
+      font-size: 0.9rem !important;
+  }
+  .image-above-content-block .feature-image {
+      margin-bottom: 40px;
+  }
+
+  .collection-promotions .container-fluid.m-section-my.m-section-py.m-custom-content__container {
+      padding: 20px 0px !important;
+  }
+  
+  .collection-promotions .m-custom-content__wrapper {
+      padding: 0;
+      margin-bottom: -10px;
+  }
+  .m-product-media--slider {
+    margin-top: 70px;
+  }
+
+  .main-product__block .m-product-title {
+      font-size: 1.2rem;
+  }
+  
+  .main-product__block span.m-price-item.m-price-item--regular{
+      font-size: 1.1rem;
+  }
+  .main-product__block button.m-add-to-cart.m-spinner-button.m-button.m-button--secondary {
+    font-size: 0.9rem;
+  }
+  
+  .main-product__block button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
+      font-size: 0.9rem;
+  }
+  
+  .main-product__block button.m-collapsible--button span {
+      font-size: 0.9rem !important;
+  }
+  
+  .main-product__block.main-product__block-custom_text p {
+      font-size: .9rem;
+  }
+  .related-product h2.m-section__heading {font-size: 1.7rem;}
+  .sarto-contact-form .form-fields {
+    display: block;
+  }
+  .page-about h2 {
+    font-size: 2.5rem;
+  }
+  .fw-img .m-hero:not(.m-hero--adapt).m-hero--large .m-hero__bg {
+    height: 30vh;
+  }
+  .world-of-sarto .container-fluid {
+    padding-top: 0;
+    margin-top: -25px;
+  }
+  .sarto-dor h2.m-richtext__title {
+    font-size: 1.8rem;
+    FONT-WEIGHT: 600;
+  }
+  .world-of-sarto.two .m-image-with-text__inner{
+    flex-direction: unset;
+  }
+  .world-of-sarto.two .container-fluid{
+    margin-top: 0;
+  }
+  .about-sliding .m-promotion__item:nth-child(1) img {
+    height: 24vh;
+  }
+  
+  .about-sliding .m-promotion__item:nth-child(2) img {
+      height: 20vh;
+  }
+  
+  .about-sliding .m-promotion__item:nth-child(3) img {
+      height: 31vh;
+  }
+  
+  .about-sliding .m-promotion__item:nth-child(4) img {
+      height: 22vh;
+  }
+  
+  .about-sliding .m-promotion__item:nth-child(5) img {
+      height: 28vh;
+  }
+  .faq-store h2.title {
+    font-size: 1.8rem;
+  }
+  
+  .faq-store h4.hours-title {
+      margin-top: 30px;
+  }
+  
+  .our-store .container-fluid.m-section-my.m-section-py.m-custom-content__container {
+      padding-top: 0px !important;
+  }
+  
+  .faq.address {
+      margin-bottom: 40px;
+  }
+  .m-custom-content__block-html.maps {
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    height: 40vh;
+  }
+  .vfg-group h2.m-richtext__title {
+    font-size: 1.2rem;
+  }
+  
+  .vfg-group .m-richtext {
+      padding: 30px 10px;
+  }
+  
+  .vfg-group .m-richtext__description {
+      font-size: 0.9rem;
+  }
+  
+  .vfg-group .m-richtext__button a {
+      font-size: 0.9rem;
+  }
+    section#m-section-template--23370942710109__what_to_wear_34NbJ9 {
+    padding-bottom: 0px;
+  }
+  
+  section#m-section-template--23370942710109__footter_top_VC9hkP {
+      padding-top: 20px;
+  }
+  .faq-ptitle .m-custom-content__wrapper {
+    display: flex;
+  }
+  
+  .faq-ptitle .m-custom-content__wrapper div {
+      max-width: 160px;
+      margin: 0 auto;
+  }
+  
+  .faq-ptitle h3.m-richtext__title.h2 {
+      font-size: 1.4rem;
+  }
+  .sarto-contact-form h2.heading {
+    font-size: 1rem;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .sarto-contact-form .form-fields textarea{
+    min-height: 20vh;
+  }
+  .sarto-contact-form .first-name , .last-name, .email, .phone {
+    max-width: 48%;
+    display: inline-block;
+    width: 100%;
+  }
+  .sarto-contact-form .first-name, .email {
+      margin-right: 1.5%;
+  }
+  .sarto-contact-form .form-info {
+    font-size: 0.9rem;
+  }
+  .sarto-contact-form .form-fields input::placeholder, button, input, optgroup, select, textarea {
+    font-size: 0.9rem;
+  }
+  .message-fields .contact-info {
+    margin-top: 20px;
+  }
+  .faq-banner .container-full {
+    margin-top: 60px;
+  }
+  .md-mt-0 {
+    margin-top: 0px !important;
+  }
+  .m-faqs-section__block.m-faqs-section__block-content {
+    font-size: 0.9rem;
+  }
+  .m-faqs-section__block.m-faqs-section__block-accordion h3 {
+      font-size: 1rem;
+  }
+  .m-faqs-section__block .m-collapsible--content__inner {
+    font-size: 0.9rem;
+    color: #000;
+  }
+  .gift-card .m-richtext.m-richtext--medium {
+    text-align: center;
+  }
+  .gift-card .m-richtext__description {
+    font-size: 0.9rem;
+  }
+  .giftp-title h2.m-richtext__title.h2 {font-size: 2rem;}
+  .giftp-title .m-richtext__description {
+    font-size: 0.9rem;
+  }
+  ul.gifts-menus.links a {
+    font-size: 0.9rem;
+  }
+  .m-collection-top-filter .m-filter--wrapper {
+    padding-top: 60px;
+  }
+}
+
+{% comment %}
+ ONLY MOBILE CSS
+{% endcomment %}
+
+@media (width <= 640px) {
+    .world-of-sarto.first {
+      margin-top: 30px;
+    }
+    .sarto-brand-header a.button-primary {
+      display: block;
+      margin-bottom: 20px;
+      font-size: 0.9rem;
+    }
+    .home-hero .m-image-card__content {
+      padding: 20px !important;
+    }
+    
+    .home-hero .m-image-card__content h3 {
+        color: #fff ;
+        font-size: 1.9rem;
+    }
+    ul.footer-terms {
+      display: none;
+    }
+    .sarto-footer-top-content .description, .sarto-footer-top-content h2{
+      text-align: center;
+    }
+    .m-footer--block.m-footer--block-menu {
+      margin-bottom: 0 !important;
+      border-bottom: 1px solid;
+    }
+    .m-footer--accordion .m-footer--block.m-footer--block-menu:nth-child(4) {
+        margin-bottom: 30px !important;
+    }
+    span.m-footer__copyright {
+        text-align: center !important;
+        width: 100%;
+        display: block;
+        font-size: 0.8rem;
+    }
+    
+    .m-footer--bottom.m-footer--bottom-footer-1 {
+        margin-bottom: 0 !important;
+    }
+    
+    .m-footer--bottom.m-footer--bottom-footer-1 .m-footer--bottom-left {
+        margin: 0;
+    }
+    .m-footer--block.m-footer--block-custom_text {
+      order: 4;
+      text-align: center;
+      font-size: 0.8rem;
+      margin-bottom: 40px !important;
+    }
+    
+    .m-footer--block.m-footer--block-custom_text .block-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 120px !important;
+    }
+    
+    .m-footer--block.m-footer--block-custom_text .block-text {
+        margin-top: 20px !important;
+    }
+    p.m-footer--block-newsletter-desc {
+      text-align: center;
+      font-size: 0.8rem;
+      max-width: 80%;
+      margin: 0 auto;
+      text-transform: unset;
+  }
+  .m-footer--block.m-footer--block-newsletter.open{
+    min-height: 300px;
+  }
+  .m-footer--block-inner p.terms {
+    text-align: center;
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+    line-height: 1.3em;
+    font-size: 0.8rem;
+  }
+  .mt-5 {
+  margin-top: 30px;
+  }
+  .mb-5 {
+    margin-bottom: 30px;
+  }
+  .m-footer--block.m-footer--block-newsletter h3{
+    font-size: 1rem !important;
+    text-align: center;
+    display: block;
+  }
+ .m-footer--block-newsletter span.m-accordion--item-icon {
+    display: none;
+  }
+  .promotion h3 {
+    font-size: 1.25rem;
+  }
+  .collection-promotions h3.m-richtext__title.h2 {
+      text-align: center;
+      max-width: 180px;
+      margin: 0 auto;
+      font-size: 1.2rem;
+  }
+  .collection-top-card .m-image-card__content {
+    padding-bottom: 20px !important;
+  }
+
+  .collection-top-card h3.m-richtext__title {
+      font-size: 1.4rem;
+  }
+
+  .collection-top-card .m-richtext__description {
+      font-size: 0.9rem;
+  }
+
+  .collection-top-card .m-image-card__img {
+      height: 350px;
+  }
+  .collection-sub-cat-info h2 {
+    font-size: 1.7rem;
+  }
+
+  .collection-sub-cat-info p {
+      font-size: 0.9rem;
+  }
+  .collection-sub-category .feature-image {
+    height: 180px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .collection-sub-category .feature-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .collection-sub-category {
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 30px 20px;
+  }
+  .collection-top-card a.m-richtext__button.m-button.m-button--secondary {
+    border-radius: 0;
+    font-size: 0.9rem;
+    padding: 9px 40px;
+  }
+  .m-section-template--23385847071069__collection_sub_category_VMiYAU {
+    padding-top: 40px !important;
+  }
+  .collection-sub-category h2 a{
+    font-size: 0.9rem;
+  }
+  .sarto-contact-form .contact-info__item {
+    display: block;
+  }
+
+  .sarto-contact-form .contact-info__item .title {
+      margin-bottom: 10px;
+  }
+  .sarto-contact-form .form-fields input[type=submit]{
+    width: 100%;
+  }
+
+}

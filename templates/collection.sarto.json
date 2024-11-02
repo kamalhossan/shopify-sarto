@@ -1,0 +1,703 @@
+{
+  "sections": {
+    "custom_content_MKc7zK": {
+      "type": "custom-content",
+      "blocks": {
+        "text_rdVRJq": {
+          "type": "text",
+          "settings": {
+            "title": "Promotion <span class=\"off\">up to 60% off<\/span>",
+            "subheading": "",
+            "text": "",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "html_7ciQaC": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"promotion-sidebar\">\n<div class=\"terms\">\n<a href=\"#\">Terms &amp; Conditions Apply<\/a>\n<\/div>\n<div class=\"cta\">\n<a class=\"pro-button\" href=\"#\">Shop Sale<\/a>\n<\/div>\n<\/div>",
+            "width": "50%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_rdVRJq",
+        "html_7ciQaC"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "default",
+        "background_image": "shopify:\/\/shop_images\/banner_bg.png",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "custom_class": "collection-promotions"
+      }
+    },
+    "custom_content_RdkxLL": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_VzXhKc": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "color_scheme": "dark",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/collection_one.png",
+            "link": "",
+            "title": "Winter-proof  your wardrobe",
+            "subtitle": "",
+            "description": "<p>Presenting your fashion forecast of the most coveted  cold weather staples.<\/p>",
+            "button_label": "Shop The Edit",
+            "button_style": "m-button--secondary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_xAFXBb": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "color_scheme": "dark",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/collection_two.png",
+            "link": "",
+            "title": "Jewellery curated collection",
+            "subtitle": "",
+            "description": "<p>Presenting your fashion forecast of the most coveted  cold weather staples.<\/p>",
+            "button_label": "Shop The Edit",
+            "button_style": "m-button--secondary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_VzXhKc",
+        "image_card_xAFXBb"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "mb-5 mt-5 collection-top-card"
+      }
+    },
+    "custom_content_469CDC": {
+      "type": "custom-content",
+      "blocks": {
+        "text_XgDNMn": {
+          "type": "text",
+          "settings": {
+            "title": "Upgrade Your Wardrobe",
+            "subheading": "",
+            "text": "<p>Stay ahead of the curve with the latest arrivals <\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_XgDNMn"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "content_color_scheme": "scheme-71bdeae8-df50-4930-8295-f0cf132ff273",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "mt-5 features-title"
+      }
+    },
+    "footter_top_TVF6aN": {
+      "type": "footter-top",
+      "blocks": {
+        "image_above_content_zkXwmB": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Ready-To-Wear",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/image_one_a9d7a6db-9135-4e5a-b698-a7b43a43fb3c.png",
+            "link": "shopify:\/\/collections\/mens"
+          }
+        },
+        "image_above_content_GYQ3tT": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Bags",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/image_two_826811eb-50bd-4dad-9c31-104af8dbc9a5.png",
+            "link": "#"
+          }
+        },
+        "image_above_content_Fp6GEc": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Shoes",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/image_three_6a2f2380-aaf4-4ab4-8708-e2f1ef736aa5.png",
+            "link": "#"
+          }
+        },
+        "image_above_content_gBUKLz": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Accessories",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/image_four.png",
+            "link": "#"
+          }
+        },
+        "image_above_content_h3H4Kx": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Fragrances",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/image_five.png",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "image_above_content_zkXwmB",
+        "image_above_content_GYQ3tT",
+        "image_above_content_Fp6GEc",
+        "image_above_content_gBUKLz",
+        "image_above_content_h3H4Kx"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "collection-wardrobe"
+      }
+    },
+    "collection_sub_category_VMiYAU": {
+      "type": "collection-sub-category",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "heading": "Upgrade your wardrobe",
+        "description": "<p>Stay ahead of the curve with the latest arrivals <\/p>"
+      }
+    },
+    "empty_space_NQy6p3": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": ""
+      }
+    },
+    "custom_content_Rj6P8E": {
+      "type": "custom-content",
+      "blocks": {
+        "liquid_bjXVc6": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<h3 class=\"m-richtext__title  h2\">\n{{ collection.title }} New Arrivals                    <\/h3>\n<div class=\"m-richtext__description rte m:text-color-subtext h6\">\n<p>Stay ahead of the curve with the latest arrivals <\/p>\n<\/div>",
+            "width": "100%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_bjXVc6"
+      ],
+      "custom_css": [
+        "h3,p {text-align: center;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "content_color_scheme": "scheme-71bdeae8-df50-4930-8295-f0cf132ff273",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "features-title"
+      }
+    },
+    "collection-header": {
+      "type": "collection-page-header",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "dark",
+        "container": "container-fluid",
+        "layout": "inside",
+        "image_position": "background",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "text_alignment": "center",
+        "text_color": "inherit",
+        "upper_title": false,
+        "show_desc": true,
+        "collection_all_desc": "",
+        "padding_top": 36,
+        "padding_bottom": 50,
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "main": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".m-banner-promotion {order: 3 !important; margin-top: 30px; margin-bottom: 0;}",
+        ".m-collection-filters-form {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "grid_layout": "grid",
+        "grid_columns": "4",
+        "show_columns_switcher": false,
+        "pagination_limit": 8,
+        "paginate_type": "paginate",
+        "show_sorting": false,
+        "show_filter": false,
+        "filters_type": "storefront_filters",
+        "sidebar": "fixed",
+        "sidebar_title": "Filters",
+        "limit_height_widget": true,
+        "limit_height": 300,
+        "change_product_variant_on_fitlering": true,
+        "show_product_count": true,
+        "collapsed_groups": "Product type, Brand, Vendor, Size",
+        "color_swatches": "color,colour,couleur,farbe",
+        "color_swatches_design": "list"
+      }
+    },
+    "custom_content_aANHi6": {
+      "type": "custom-content",
+      "blocks": {
+        "text_MyjCQY": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "<h3>Extra <strong>20% OFF SS24<\/strong><\/h3><p>USE CODE <strong>SARTOSS24<\/strong> AT CHECKOUT<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_MyjCQY"
+      ],
+      "custom_css": [
+        "h3 {margin: 0;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "scheme-ed396a48-3ddd-453c-a17d-405a4170048d",
+        "content_color_scheme": "scheme-ed396a48-3ddd-453c-a17d-405a4170048d",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "custom_class": "border-top-bottom mt-5 promotion mb-5"
+      }
+    },
+    "recent-viewed": {
+      "type": "recent-viewed-products",
+      "disabled": true,
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "heading": "Recently Viewed Products",
+        "heading_size": "h3",
+        "text_align": "left",
+        "limit": 8,
+        "columns": 5,
+        "column_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 40,
+        "padding_bottom": 100,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "what_to_wear_34NbJ9": {
+      "type": "what-to-wear",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "custom_class": "",
+        "image": "shopify:\/\/shop_images\/image_six.png",
+        "heading": "What to Wear Now",
+        "sub_heading": "Our Experts Edit",
+        "description": "<p>Discover our favourite layers, all-weather boots and leather accessories that are perfect for the change of season. Discover our favourite layers, all-weather boots.<\/p>",
+        "url": "#",
+        "product_1": "",
+        "product_2": "",
+        "product_3": ""
+      }
+    },
+    "image_with_text_q47pnd": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "container": "container-fluid",
+        "color_scheme": "scheme-7ebd57a4-fbe6-4b63-9da0-9cff4207cf9a",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "layout": "left",
+        "image_column_size": "6",
+        "image_overlap": false,
+        "show_image_reverse": false,
+        "hover_effect": false,
+        "image_animation": "none",
+        "image": "shopify:\/\/shop_images\/image_eleven.png",
+        "link": "",
+        "link_2": "",
+        "second_image_offset_top": 10,
+        "title": "Winter  Essentials",
+        "sub_title": "Featured",
+        "text": "<p>From ready-to-wear to shoes and the iconic bags of the Dolce & Gabbana, the selection highlights the most up-to-date items for this season. From ready-to-wear to shoes and the iconic bags of the Dolce & Gabbana, the selection highlights the most up-to-date items for this season.<\/p>",
+        "text_size": "medium",
+        "content_alignment": "center",
+        "button_label": "Discover More",
+        "button_link": "",
+        "button_style": "m-button--secondary",
+        "button_size": "",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": "winter-essentials",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_MCxa7c": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_LGCrR8": {
+          "type": "image_card",
+          "settings": {
+            "width": "100%",
+            "color_scheme": "scheme-08c17262-3f8f-4a66-bb19-6324cce0555b",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/image_ten_0fc0e8fc-a824-45ce-a536-db12a5d1ba30.png",
+            "link": "#",
+            "title": "Just landed: <span>Lemaire<\/span>",
+            "subtitle": "",
+            "description": "<p>From ready-to-wear to shoes and the iconic bags of the Dolce & Gabbana, the selection highlights the most up-to-date items for this season. <\/p>",
+            "button_label": "Discover more",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "lemaire",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_LGCrR8"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "footter_top_yPqtDY": {
+      "type": "footter-top",
+      "blocks": {
+        "image_above_content_8ch9QF": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "A beautiful you",
+            "description": "<p>Discover expertly curated collections of our favourite skin, hair and make-up essentials. <br\/><br\/><a href=\"#\" target=\"_blank\" title=\"#\">Shop beauty<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_seven.png",
+            "link": ""
+          }
+        },
+        "image_above_content_feedew": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Home for the holidays",
+            "description": "<p>Discover expertly curated collections of our favourite skin, hair and make-up essentials. <\/p><p><a href=\"#\" target=\"_blank\" title=\"#\">Shop the edit<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_eight.png",
+            "link": ""
+          }
+        },
+        "image_above_content_KYtNEB": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "The bestsellers",
+            "description": "<p>Discover expertly curated collections of our favourite skin, hair and make-up essentials. <\/p><p><a href=\"#\" target=\"_blank\" title=\"#\">Shop the edit<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_nine.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_above_content_8ch9QF",
+        "image_above_content_feedew",
+        "image_above_content_KYtNEB"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "collection-beuty"
+      }
+    },
+    "empty_space_YPXBBE": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": ""
+      }
+    },
+    "blog_posts_BwaVxT": {
+      "type": "blog-posts",
+      "settings": {
+        "heading": "Top Stories",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "left",
+        "container": "container-fluid",
+        "color_scheme": "scheme-4a330dc8-fba3-493f-8742-f5231f1102bc",
+        "blog": "magazine",
+        "limit": 6,
+        "column": 6,
+        "column_gap": 16,
+        "mobile_gap": 16,
+        "article_image_aspect_ratio": "original",
+        "article_align_content": "text-left",
+        "article_show_tags": true,
+        "article_show_date": false,
+        "article_show_excerpt": false,
+        "article_show_button": false,
+        "show_button_on_header": false,
+        "button_link": "",
+        "button_text": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "use_scroll_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "collection-blogs",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_FJyzPg": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 40,
+        "custom_class": ""
+      }
+    },
+    "footter_top_VC9hkP": {
+      "type": "footter-top",
+      "blocks": {
+        "image_above_content_WeGcY4": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Our Store",
+            "description": "<p><strong>STORE HOURS<\/strong><\/p><p>Monday to Thursday: 10:00 till 19:00Friday to Saturday: 10:00 till 20:00Sunday: Closed<\/p><p><a href=\"#\" target=\"_blank\" title=\"#\">Get directions<\/a><\/p><p>Ross Street, St Julians, Malta STJ3246<br\/><br\/><a href=\"#\" target=\"_blank\" title=\"#\">T: 2202 1601<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_one.png",
+            "link": ""
+          }
+        },
+        "image_above_content_MBjihM": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Sarto <em>VIP<\/em>",
+            "description": "<p>Become a Keyholder and unlock exclusive invites, first looks, free delivery, monthly prizes and regular donations.<\/p><p><a href=\"#\" target=\"_blank\" title=\"#\">Discover more<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/Image_two.png",
+            "link": ""
+          }
+        },
+        "image_above_content_bnPx8g": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Loyalty Scheme",
+            "description": "<p>Become a Keyholder and unlock exclusive invites, first looks, free delivery, monthly prizes and regular donations.<\/p><p><a href=\"#\" target=\"_blank\" title=\"#\">Discover more<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_three.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_above_content_WeGcY4",
+        "image_above_content_MBjihM",
+        "image_above_content_bnPx8g"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "custom_content_MKc7zK",
+    "custom_content_RdkxLL",
+    "custom_content_469CDC",
+    "footter_top_TVF6aN",
+    "collection_sub_category_VMiYAU",
+    "empty_space_NQy6p3",
+    "custom_content_Rj6P8E",
+    "collection-header",
+    "main",
+    "custom_content_aANHi6",
+    "recent-viewed",
+    "what_to_wear_34NbJ9",
+    "image_with_text_q47pnd",
+    "custom_content_MCxa7c",
+    "footter_top_yPqtDY",
+    "empty_space_YPXBBE",
+    "blog_posts_BwaVxT",
+    "empty_space_FJyzPg",
+    "footter_top_VC9hkP"
+  ]
+}

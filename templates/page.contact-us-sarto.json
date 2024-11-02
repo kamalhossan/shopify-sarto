@@ -1,0 +1,366 @@
+{
+  "sections": {
+    "breadcrumb_RHyjx4": {
+      "type": "breadcrumb",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "text_alignment": "center",
+        "hide_current": false,
+        "hide_on_mb": false,
+        "animations": "inherit"
+      }
+    },
+    "custom_content_tAfTRN": {
+      "type": "custom-content",
+      "blocks": {
+        "text_DRh6in": {
+          "type": "text",
+          "settings": {
+            "title": "Contact",
+            "subheading": "",
+            "text": "",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "active",
+            "animations": "inherit"
+          }
+        },
+        "text_PKJtWn": {
+          "type": "text",
+          "settings": {
+            "title": "<a href=\"\/pages\/faqs\">FAQ<\/a>",
+            "subheading": "",
+            "text": "",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_DRh6in",
+        "text_PKJtWn"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": "faq-ptitle"
+      }
+    },
+    "sarto_form_YzBbCB": {
+      "type": "sarto-form",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "heading": "Get in touch, we’re here for you.We will get back to you in up to 24 hours.",
+        "button_text": "Send Message",
+        "description": "<p>For any product or order inquires, please contact our customer service team below or take a look at our Frequently Asked Questions.<\/p>",
+        "customer_heading": "Customer Service",
+        "customer_description": "<p><a href=\"mailto:care@sarto.com.mt\" title=\"mailto:care@sarto.com.mt\">care@sarto.com.mt<\/a><br\/>Mon - Fri | 9am - 5pm CET<br\/>Please allow up to 24-48 hours for your inquiry to be addressed.<br\/>Our Customer Service is not available on national holidays or weekends.<\/p>",
+        "colloboration": "PR & COLLABORATIONS",
+        "pr_description": "<p><a href=\"mailto:info@sarto.com.mt\" title=\"mailto:info@sarto.com.mt\">info@sarto.com.mt<\/a><\/p>"
+      }
+    },
+    "1724233952373ff4b3": {
+      "type": "apps",
+      "blocks": {
+        "qikify_form_builder_embed_form_jten6i": {
+          "type": "shopify:\/\/apps\/qikify-form-builder\/blocks\/embed-form\/753fa0d7-50d4-480a-b094-cff26e632c36",
+          "settings": {
+            "type": "form",
+            "formId": 392986
+          }
+        }
+      },
+      "block_order": [
+        "qikify_form_builder_embed_form_jten6i"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "172422437124666f21": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_HRVELr": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "162243",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_HRVELr"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "page-faqs",
+      "blocks": {
+        "accordion-1": {
+          "type": "accordion",
+          "settings": {
+            "title": "Orders",
+            "content": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod teampor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.<br\/><br\/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.<\/p>",
+            "open": false
+          }
+        },
+        "accordion-2": {
+          "type": "accordion",
+          "settings": {
+            "title": "Fit",
+            "content": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<\/p>",
+            "open": false
+          }
+        },
+        "accordion-3": {
+          "type": "accordion",
+          "settings": {
+            "title": "Payment",
+            "content": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<\/p>",
+            "open": false
+          }
+        },
+        "accordion-4": {
+          "type": "accordion",
+          "settings": {
+            "title": "Promotions & Discounts",
+            "content": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.<\/p>",
+            "open": false
+          }
+        },
+        "accordion-5": {
+          "type": "accordion",
+          "settings": {
+            "title": "Shipping",
+            "content": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<\/p>",
+            "open": false
+          }
+        },
+        "accordion_DMFHfF": {
+          "type": "accordion",
+          "settings": {
+            "title": "Returns $ EXchanges",
+            "content": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<\/p>",
+            "open": false
+          }
+        },
+        "content_BgmRXH": {
+          "type": "content",
+          "settings": {
+            "content": "If you did not find an answer from our FAQ, please contact us via email at <a style=\"text-decoration: underline\" href=\"mailto:care@sarto.com.mt\">care@sarto.com.mt<\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion-1",
+        "accordion-2",
+        "accordion-3",
+        "accordion-4",
+        "accordion-5",
+        "accordion_DMFHfF",
+        "content_BgmRXH"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "menu": "",
+        "custom_class": "sarto-faqs"
+      }
+    },
+    "image_with_text_2_jy8zXb": {
+      "type": "image-with-text-2",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "",
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": true,
+        "image": "shopify:\/\/shop_images\/banner.png",
+        "image_link": "",
+        "parallax": false,
+        "parallax_direction": "vertical",
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "text_alignment_mobile": "center",
+        "use_content_above": false,
+        "custom_class": "faq-banner",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "custom_content_XWanji": {
+      "type": "custom-content",
+      "blocks": {
+        "html_F8XJx8": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"title\">Visit Our Store<\/h2>\n\n    <div class=\"faq address\">\n      <p style=\"color: #977d61\">\n      2, Ross Street,<br>\n      St.Julians,<br>\n      Malta<br>\n      STJ 3246\n<br><br>\n      <a href=\"#\">+356 2202 1601<\/a>\n<br><br>\n      \n      <\/p>\n<h4 class=\"hours-title\">Opening Hours<\/h4>\n      <div class=\"opening-hours\">\n        <ul>\n          <li>\n<span>Monday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Tuesday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Wednesday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Thursday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Friday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Saturday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n          <li>\n<span>Sunday<\/span><span>10:00 AM - 5:00 PM<\/span>\n<\/li>\n        <\/ul>\n      <\/div>\n\n      <a class=\"direction\" href=\"#\">Get directions<\/a>\n    <\/div>",
+            "width": "33%",
+            "block_custom_class": "faq-store",
+            "animations": "inherit"
+          }
+        },
+        "html_7kzrDU": {
+          "type": "html",
+          "settings": {
+            "code": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1615.5284751883125!2d14.489685048131554!3d35.92110602126219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e456a4994a58f%3A0xe13796df81aefd0a!2sSarto!5e0!3m2!1sen!2sbd!4v1724153018098!5m2!1sen!2sbd\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+            "width": "66%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "html_F8XJx8",
+        "html_7kzrDU"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "custom_class": "mt-5 md-mt-0"
+      }
+    },
+    "rich_text_9Hjmjp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8nELLy": {
+          "type": "heading",
+          "settings": {
+            "heading": "PART OF VFG GROUP",
+            "heading_size": "h2"
+          }
+        },
+        "text_QHFBtT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>VF Group is a diverse group of organisations and parent company of Sarto. Its story spans more than four decades and is one that is built on passion, innovation and unwavering determination. Starting off as tailoring manufactures on the island of Malta, the vision was clear, even in those early days: to deliver fine quality products and experiences through a steadfast commitment to quality, design and good taste. VF Group may have grown exponentially, but its founding values of respect, understanding and care remaining ingrained in the company’s DNA, and are apparent in the relationships enjoyed with customers, partners and colleagues alike. The company employs a workforce of over 150 across its three key divisions: Fashion & Retail, Manufacturing & Uniformity and Media & Design. VF Group is an undisputed market leader with an unmatched portfolio of Malta’s most recognisable corporate and consumer brands. <\/p>"
+          }
+        },
+        "button_WYQbtz": {
+          "type": "button",
+          "settings": {
+            "button_label": "For more information visit vfgroup.mt",
+            "button_link": "#",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_8nELLy",
+        "text_QHFBtT",
+        "button_WYQbtz"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "content_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": "mt-5 vfg-group",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "breadcrumb_RHyjx4",
+    "custom_content_tAfTRN",
+    "sarto_form_YzBbCB",
+    "1724233952373ff4b3",
+    "172422437124666f21",
+    "main",
+    "image_with_text_2_jy8zXb",
+    "custom_content_XWanji",
+    "rich_text_9Hjmjp"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "breadcrumb_qTMVmN": {
+      "type": "breadcrumb",
+      "settings": {
+        "container": "container-fluid",
+        "text_alignment": "left",
+        "hide_current": false,
+        "hide_on_mb": false,
+        "animations": "inherit"
+      }
+    },
+    "empty_space_bGLBkJ": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "icon_box_NhmqmK": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_AYdfkN": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_7yCfG9": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_pBNTfC": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_AYdfkN",
+        "iconbox_7yCfG9",
+        "iconbox_pBNTfC"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_per_row": 3,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_color_scheme": "",
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": "product-highlights",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_Dh93jL": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "custom_class": ""
+      }
+    },
+    "footter_top_6LQE3t": {
+      "type": "footter-top",
+      "blocks": {
+        "image_above_content_TUTBE4": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Our Store",
+            "description": "<p><strong>STORE HOURS<br\/><\/strong>Monday to Thursday: 10:00 till 19:00<br\/>Friday to Saturday: 10:00 till 20:00<br\/>Sunday: Closed<\/p><p><a href=\"#\" title=\"#\">Get directions<\/a><\/p><p>Ross Street, St Julians, Malta STJ3246<br\/><br\/><a href=\"#\" title=\"#\">T: 2202 1601<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_one.png",
+            "link": ""
+          }
+        },
+        "image_above_content_YAMVNT": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Sarto <em>VIP<\/em>",
+            "description": "<p>Become a Keyholder and unlock exclusive invites, first looks, free delivery, monthly prizes and regular donations.<\/p><p><a href=\"#\" title=\"#\">Discover more<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/Image_two.png",
+            "link": ""
+          }
+        },
+        "image_above_content_xTkmy4": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Loyalty Scheme",
+            "description": "<p>Become a Keyholder and unlock exclusive invites, first looks, free delivery, monthly prizes and regular donations.<\/p><p><a href=\"#\" title=\"#\">Discover more<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_three.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_above_content_TUTBE4",
+        "image_above_content_YAMVNT",
+        "image_above_content_xTkmy4"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "breadcrumb_qTMVmN",
+    "empty_space_bGLBkJ",
+    "icon_box_NhmqmK",
+    "empty_space_Dh93jL",
+    "footter_top_6LQE3t"
+  ]
+}

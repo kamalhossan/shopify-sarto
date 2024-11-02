@@ -1,0 +1,35 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "breadcrumb_CHRRNU": {
+      "type": "breadcrumb",
+      "settings": {
+        "container": "container-fluid",
+        "text_alignment": "center",
+        "hide_current": false,
+        "hide_on_mb": false,
+        "animations": "inherit"
+      }
+    },
+    "sarto_brand_list_R9wURz": {
+      "type": "sarto-brand-list",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "breadcrumb_CHRRNU",
+    "sarto_brand_list_R9wURz"
+  ]
+}

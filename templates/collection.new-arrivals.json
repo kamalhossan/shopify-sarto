@@ -1,0 +1,432 @@
+{
+  "sections": {
+    "breadcrumb_pMQJXk": {
+      "type": "breadcrumb",
+      "settings": {
+        "container": "container-fluid",
+        "text_alignment": "left",
+        "hide_current": false,
+        "hide_on_mb": false,
+        "animations": "inherit"
+      }
+    },
+    "collection-header": {
+      "type": "collection-page-header",
+      "settings": {
+        "color_scheme": "default",
+        "container": "container-fluid",
+        "layout": "without_breadcrumb",
+        "image_position": "background",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "text_alignment": "center",
+        "text_color": "inherit",
+        "upper_title": true,
+        "show_desc": true,
+        "collection_all_desc": "<p>Sign-up to our newsletter to stay informed about our latest arrivals<\/p>",
+        "padding_top": 36,
+        "padding_bottom": 50,
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "main": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "filter_trDcVj": {
+          "type": "filter",
+          "settings": {
+            "design_filtergroup": "default",
+            "title": "Tags",
+            "filtergroup": "Women, Shoes",
+            "show_label": true,
+            "use_accordion": true,
+            "open_filtergroup": false
+          }
+        },
+        "filter_y6iVJ8": {
+          "type": "filter",
+          "settings": {
+            "design_filtergroup": "default",
+            "title": "Brand",
+            "filtergroup": "Women, Shoes",
+            "show_label": true,
+            "use_accordion": true,
+            "open_filtergroup": false
+          }
+        },
+        "collections_yFctH3": {
+          "type": "collections",
+          "settings": {
+            "title": "Collections",
+            "menu": "footer-shop",
+            "show_image": false,
+            "use_accordion": true,
+            "open_filtergroup": false
+          }
+        },
+        "banner_promotion_KppNc9": {
+          "type": "banner_promotion",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "dark",
+            "text_size": "medium",
+            "text_color": "white",
+            "link": "",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "title": "SALE UP TO 25% OFF",
+            "subtitle": "Online Exclusive",
+            "button_label": "Shop The Sale",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        }
+      },
+      "block_order": [
+        "filter_trDcVj",
+        "filter_y6iVJ8",
+        "collections_yFctH3",
+        "banner_promotion_KppNc9"
+      ],
+      "custom_css": [
+        ".m-banner-promotion {order: 3 !important; margin-top: 30px; margin-bottom: 0;}",
+        ".m-collection-filters-form {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "grid_layout": "grid",
+        "grid_columns": "3",
+        "show_columns_switcher": false,
+        "pagination_limit": 12,
+        "paginate_type": "paginate",
+        "show_sorting": true,
+        "show_filter": true,
+        "filters_type": "tags_filter",
+        "sidebar": "top",
+        "sidebar_title": "Filters",
+        "limit_height_widget": true,
+        "limit_height": 300,
+        "change_product_variant_on_fitlering": true,
+        "show_product_count": true,
+        "collapsed_groups": "Product type, Brand, Vendor, size",
+        "color_swatches": "color,colour,couleur,farbe, black, red, green",
+        "color_swatches_design": "inline"
+      }
+    },
+    "recent-viewed": {
+      "type": "recent-viewed-products",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "heading": "Recently Viewed Products",
+        "heading_size": "h3",
+        "text_align": "left",
+        "limit": 8,
+        "columns": 5,
+        "column_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 40,
+        "padding_bottom": 100,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_B9G3XF": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_gap": 40,
+        "item_gap_mobile": 30,
+        "layout": "left",
+        "image_column_size": "8",
+        "image_overlap": false,
+        "show_image_reverse": false,
+        "hover_effect": false,
+        "image_animation": "none",
+        "image": "shopify:\/\/shop_images\/image_42.png",
+        "link": "",
+        "link_2": "",
+        "second_image_offset_top": 10,
+        "title": "6 investment pieces to update your look today.",
+        "sub_title": "",
+        "text": "<p>Discover the sleek trans-seasonal styles guaranteed to refresh your look and earn a space in your forever closet, plus what to wear with them. <\/p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "EXPLORE THE EDIT",
+        "button_link": "#",
+        "button_style": "m-button--link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "six-investment",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_GXbMag": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 60,
+        "custom_class": ""
+      }
+    },
+    "rich_text_QeqMKg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qM8afk": {
+          "type": "heading",
+          "settings": {
+            "heading": "MORE TO EXPLORE",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qM8afk"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "custom_class": "explorec-title",
+        "animations": "inherit"
+      }
+    },
+    "gifts_menu_F3B63A": {
+      "type": "gifts-menu",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "collection-m",
+        "menu": "collection-explore-menu"
+      }
+    },
+    "custom_content_f9dB8n": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_paiARf": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "color_scheme": "",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/gift_for_her.jpg",
+            "link": "shopify:\/\/collections\/ready-to-wear",
+            "title": "Ready-to-wear",
+            "subtitle": "",
+            "description": "",
+            "button_label": "Shop Now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_de6kWA": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "color_scheme": "",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/shoes.png",
+            "link": "shopify:\/\/collections\/shoes",
+            "title": "Shoes",
+            "subtitle": "",
+            "description": "",
+            "button_label": "Shop Now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_dtVw7y": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "color_scheme": "",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/accesories.png",
+            "link": "shopify:\/\/collections\/accessories",
+            "title": "Accessories",
+            "subtitle": "",
+            "description": "",
+            "button_label": "Shop Now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_paiARf",
+        "image_card_de6kWA",
+        "image_card_dtVw7y"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "custom_class": "more-to-explore"
+      }
+    },
+    "empty_space_HNNXey": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 6,
+        "padding_bottom": 80,
+        "custom_class": ""
+      }
+    },
+    "icon_box_X8yTpe": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_AriRNr": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_Mi6Xxr": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_9Q6r3w": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_AriRNr",
+        "iconbox_Mi6Xxr",
+        "iconbox_9Q6r3w"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_per_row": 3,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_color_scheme": "",
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": false,
+        "show_pagination": true,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "custom_class": "product-highlights",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "breadcrumb_pMQJXk",
+    "collection-header",
+    "main",
+    "recent-viewed",
+    "image_with_text_B9G3XF",
+    "empty_space_GXbMag",
+    "rich_text_QeqMKg",
+    "gifts_menu_F3B63A",
+    "custom_content_f9dB8n",
+    "empty_space_HNNXey",
+    "icon_box_X8yTpe"
+  ]
+}

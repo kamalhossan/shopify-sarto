@@ -1,0 +1,312 @@
+{
+  "sections": {
+    "breadcrumb_tBjqKx": {
+      "type": "breadcrumb",
+      "settings": {
+        "container": "container-fluid",
+        "text_alignment": "left",
+        "hide_current": false,
+        "hide_on_mb": false,
+        "animations": "inherit"
+      }
+    },
+    "custom_content_BWxNRK": {
+      "type": "custom-content",
+      "blocks": {
+        "liquid_eadfeD": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"brand-info\">\n<h1>{{collection.title}}<\/h1>\n<p>{{collection.description}}<\/p>\n<\/div>\n{% assign links = collection.metafields.custom.links.value %}\n{% if links != blank %}\n{% for link in links%}\n<a class=\"button-primary\" href=\"{{link.url}}\">{{link.text}}<\/a>\n{%endfor%}\n\n{% endif %}",
+            "width": "33%",
+            "block_custom_class": "sarto-brand-header",
+            "animations": "inherit"
+          }
+        },
+        "image_8Fke4y": {
+          "type": "image",
+          "settings": {
+            "image": "{{ collection.image }}",
+            "link": "",
+            "width": "66%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_eadfeD",
+        "image_8Fke4y"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_color_scheme": "",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "custom_class": "brand-header-con"
+      }
+    },
+    "collection-header": {
+      "type": "collection-page-header",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container": "container-fluid",
+        "layout": "without_breadcrumb",
+        "bg_image": "{{ collection.image }}",
+        "image_position": "right",
+        "enable_parallax": true,
+        "parallax_direction": "vertical",
+        "text_alignment": "left",
+        "text_color": "inherit",
+        "upper_title": false,
+        "show_desc": true,
+        "collection_all_desc": "",
+        "padding_top": 36,
+        "padding_bottom": 50,
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "main": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "filter_MNxta8": {
+          "type": "filter",
+          "settings": {
+            "design_filtergroup": "default",
+            "title": "Tags",
+            "filtergroup": "Vintage,tops,shirts",
+            "show_label": true,
+            "use_accordion": true,
+            "open_filtergroup": false
+          }
+        }
+      },
+      "block_order": [
+        "filter_MNxta8"
+      ],
+      "custom_css": [
+        ".m-banner-promotion {order: 3 !important; margin-top: 30px; margin-bottom: 0;}",
+        ".m-collection-filters-form {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "grid_layout": "grid",
+        "grid_columns": "3",
+        "show_columns_switcher": true,
+        "pagination_limit": 9,
+        "paginate_type": "paginate",
+        "show_sorting": true,
+        "show_filter": true,
+        "filters_type": "tags_filter",
+        "sidebar": "top",
+        "sidebar_title": "Filters",
+        "limit_height_widget": true,
+        "limit_height": 300,
+        "change_product_variant_on_fitlering": true,
+        "show_product_count": true,
+        "collapsed_groups": "Product type, Brand, Vendor, Size",
+        "color_swatches": "color,colour,couleur,farbe",
+        "color_swatches_design": "list"
+      }
+    },
+    "recent-viewed": {
+      "type": "recent-viewed-products",
+      "disabled": true,
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "heading": "Recently Viewed Products",
+        "heading_size": "h3",
+        "text_align": "left",
+        "limit": 8,
+        "columns": 5,
+        "column_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 40,
+        "padding_bottom": 100,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_FJyzPg": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": ""
+      }
+    },
+    "icon_box_Dp8ApU": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_FTYPT4": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_9q3CD8": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_CGBd7f": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_13.png",
+            "image_by_url": "",
+            "title": "The finest edit in Luxury",
+            "description": "<p>Finest edit of more than 200 international luxury brands<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_FTYPT4",
+        "iconbox_9q3CD8",
+        "iconbox_CGBd7f"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_per_row": 3,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_color_scheme": "",
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": false,
+        "show_pagination": true,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "product-highlights",
+        "animations": "inherit"
+      }
+    },
+    "empty_space_rmWqhk": {
+      "type": "empty-space",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "scheme-ebd46e81-0e5d-4a17-9ce8-957a84fc2894",
+        "show_divider_line": true,
+        "divider_style": "solid",
+        "divider_height": 1,
+        "padding_top": 80,
+        "padding_bottom": 40,
+        "custom_class": ""
+      }
+    },
+    "footter_top_VC9hkP": {
+      "type": "footter-top",
+      "blocks": {
+        "image_above_content_WeGcY4": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Our Store",
+            "description": "<p><strong>STORE HOURS<\/strong><\/p><p>Monday to Thursday: 10:00 till 19:00Friday to Saturday: 10:00 till 20:00Sunday: Closed<\/p><p><a href=\"#\" target=\"_blank\" title=\"#\">Get directions<\/a><\/p><p>Ross Street, St Julians, Malta STJ3246<br\/><br\/><a href=\"#\" target=\"_blank\" title=\"#\">T: 2202 1601<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_one.png",
+            "link": ""
+          }
+        },
+        "image_above_content_MBjihM": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Sarto VIP",
+            "description": "<p>Become a Keyholder and unlock exclusive invites, first looks, free delivery, monthly prizes and regular donations.<\/p><p><a href=\"#\" target=\"_blank\" title=\"#\">Discover more<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/Image_two.png",
+            "link": ""
+          }
+        },
+        "image_above_content_bnPx8g": {
+          "type": "image_above_content",
+          "settings": {
+            "heading": "Loyalty Scheme",
+            "description": "<p>Become a Keyholder and unlock exclusive invites, first looks, free delivery, monthly prizes and regular donations.<\/p><p><a href=\"#\" target=\"_blank\" title=\"#\">Discover more<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_three.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_above_content_WeGcY4",
+        "image_above_content_MBjihM",
+        "image_above_content_bnPx8g"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumb_tBjqKx",
+    "custom_content_BWxNRK",
+    "collection-header",
+    "main",
+    "recent-viewed",
+    "empty_space_FJyzPg",
+    "icon_box_Dp8ApU",
+    "empty_space_rmWqhk",
+    "footter_top_VC9hkP"
+  ]
+}

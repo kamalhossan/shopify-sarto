@@ -1,0 +1,235 @@
+{% liquid
+  if section.settings.custom_class != blank
+    assign classes = section.settings.custom_class
+  endif
+  
+%}
+
+{%- style -%}
+  .m-section-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+{%- endstyle -%}
+
+
+<section
+    id="m-section-{{ section.id }}"
+    class="m-section-{{ section.id }}  m-gradient m-color-{{ section.settings.color_scheme }}"
+  >
+    <div class="{{ section.settings.container }} {{ classes }}">
+        <div class="forms-container">
+          {% form 'contact' %}
+              <div class="form-fields">
+                <div class="basic-fields">
+                  {% if section.settings.heading != blank %}
+                    <h2 class="heading">{{  section.settings.heading }}</h2>
+                  {%  endif %}
+                    <div class="first-name">
+                      <label for="first-name">First name</label>
+                      <input type="text" name="contact[first_name]" required="required" id="first-name" placeholder="First name" />
+                    </div>
+                    <div class="last-name">
+                      <label for="last-name">Last name</label>
+                      <input type="text" name="contact[last_name]" id="last-name"  placeholder="Last Name" />
+                    </div>                
+                    <div class="email">
+                      <label for="email">Email</label>
+                      <input type="email" name="contact[email]" required="required" id="email" placeholder="Email" />
+                    </div>    
+                    <div class="phone">
+                      <label for="phone">Phone</label>
+                      <input type="tel" name="contact[phone]" id="phone" placeholder="Phone Number" />
+                    </div>
+                    <div class="request-type">
+                      <label for="request-type">My questions is about</label>
+                      <select id="request-type" name="contact[request_type]">
+                        <option disabled selected >My questions is about</option>
+                        <option value="Returns" >Returns</option>
+                        <option value="Shipping">Shipping</option>
+                        <option value="Custom order">Custom order</option>
+                        <option value="Other">Other</option>
+                      </select>
+                    </div>
+                    <div class="order-number">
+                      <label for="order-number">Order number</label>
+                      <input type="text" name="contact[order_number]" id="order-number" placeholder="Order Number" />
+                    </div>
+
+                    {% if section.settings.description != blank %}
+                      <div class="form-info md-d-none">
+                        <p>{{  section.settings.description }}</p>
+                      </div>
+                    {%  endif %}
+  
+                </div>
+                <div class="message-fields">
+                  <div class="message">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="contact[body]" id="message" placeholder="Comment"></textarea>
+                  </div>
+                  <div class="submit">
+                    {% if section.settings.button_text != blank %}
+                     {% assign button_text = section.settings.button_text %} 
+                     {%  else  %}
+                     {%  assign button_text = 'Send Message' %}
+                    {% endif %}
+                    <input type="submit" value="{{ button_text }}">
+                  </div>
+                  {% if section.settings.description != blank %}
+                      <div class="form-info lg-d-none">
+                        <p>{{  section.settings.description }}</p>
+                      </div>
+                    {%  endif %}
+                  {% if form.posted_successfully %}
+                    <p class="success-message">Thank you! Your message has been sent successfully.</p>
+                  {% else %}
+                    {{ form.errors | default_errors }}
+                  {% endif %}
+
+                  {% comment %} contact information {% endcomment %}
+
+                  <div class="contact-info">
+                    {% if section.settings.customer_heading != blank %}
+                    <div class="contact-info__item">
+                      <div class="title">
+                        <h4>{{  section.settings.customer_heading }}</h4>
+                      </div>
+                      {%  if section.settings.customer_description != blank %}
+                        <div class="content">
+                          <p>{{  section.settings.customer_description }}</p>
+                        </div>
+                        {%  endif %}
+                    </div>
+                    {%  endif %}
+  
+                    {% if section.settings.colloboration != blank %}
+                      <div class="contact-info__item">
+                        <div class="title">
+                          <h4>{{  section.settings.colloboration }}</h4>
+                        </div>
+                        {%  if section.settings.pr_description != blank %}
+                          <div class="content">
+                            <p>{{  section.settings.pr_description }}</p>
+                          </div>
+                          {%  endif %}
+                      </div>
+                      {%  endif %}
+                  </div>
+
+
+
+
+                </div>
+              </div>
+          {% endform %}          
+        </div>
+    </div>
+</section>
+
+
+{% schema %}
+
+{
+    "name": "Sarto Form",
+    "class": "sarto-contact-form",
+    "settings": [
+        {
+            "type": "select",
+            "id": "container",
+            "label": "Container type",
+            "default": "container-fluid",
+            "options": [
+              {
+                "value": "container-fluid",
+                "label": "Default"
+              },
+              {
+                "value": "w-full",
+                "label": "Full width"
+              },
+              {
+                "value": "container",
+                "label": "Use container box"
+              }
+            ]
+        },
+         {
+            "type": "color_scheme",
+            "id": "color_scheme",
+            "label": "Color scheme"
+        }, 
+        {
+            "type": "range",
+            "id": "padding_top",
+            "label": "Padding Top",
+            "default": 0,
+            "min": 0,
+            "max": 100,
+            "step": 2,
+            "unit": "px"
+          },
+          {
+            "type": "range",
+            "id": "padding_bottom",
+            "label": "Padding Bottom",
+            "default": 0,
+            "min": 0,
+            "max": 100,
+            "step": 2,
+            "unit": "px"
+          },
+          {
+            "type": "text",
+            "id": "custom_class",
+            "label": "Custom classes"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "default": "What to Wear Now"
+          },
+          {
+            "type": "text",
+            "id": "button_text",
+            "label": "Submit Button Text",
+            "default": "Send Message"
+          },
+          {
+              "type": "richtext",
+              "id": "description",
+              "label": "Description"
+          },
+          {
+            "type": "text",
+            "id": "customer_heading",
+            "label": "Customer Service Title",
+            "default": "Customer Service"
+          },
+          {
+            "type": "richtext",
+            "id": "customer_description",
+            "label": "Description"
+          },
+          {
+            "type": "text",
+            "id": "colloboration",
+            "label": "Colloboration Title",
+            "default": "PR & COLLABORATIONS"
+          },
+          {
+            "type": "richtext",
+            "id": "pr_description",
+            "label": "Description"
+          },
+    ],
+    "presets": [
+        {
+        "name": "Sarto Form",
+        }
+    ]
+}
+
+{% endschema %}
